@@ -1,0 +1,940 @@
+Toolchain path: /home/natsubuntu/esp32/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+Toolchain version: crosstool-ng-1.22.0-80-g6c4433a
+Compiler version: 5.2.0
+Python requirements from /home/natsubuntu/esp32/esp-mdf/esp-idf/requirements.txt are satisfied.
+MONITOR
+e×Ju®Â‚2Š²‚0°§’:µÓH¨Š®.—‚ÂÅ 	õ]ION¥EU‰I½½Ñ:°Å3 ¨*•}…SÔe1ASê%½O”J¡¬ËK¥gsZé 0¬šÁI×¥‚Â••Š,këEÉvºÂÁ0,\EÉv'ÂA0¬ÖEÉÙi0ø‚bšÍA_ä.—‚x‚bB‘}Ñr—‚ÂÁ°iÁ_d.W‚x°jŠ[‹•éDI	±½Ík Ëé²C!ë…‘:°Í¦–A01bbÕnºÓHˆ½…dºÂÍff‚Šc¬k¹:¶¦’j
+¬+‘:°Ñ°ºÂ0°bbÕnºLŠ5²C!ë+‘:°Ñ°Â‚4°bb•¹é66&&H(¹tr^‚ÂÑ°Â‚ú6SHø[0;32mI (28) boot: ESP-IDF v3.3-beta1-223-ga62cbfe 2nd stage bootloader[0m
+[0;32mI (28) boot: compile time 18:59:29[0m
+[0;32mI (28) boot: Enabling RNG early entropy source...[0m
+[0;32mI (34) boot: SPI Speed      : 40MHz[0m
+[0;32mI (38) boot: SPI Mode       : DIO[0m
+[0;32mI (42) boot: SPI Flash Size : 4MB[0m
+[0;32mI (46) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (65) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (72) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  3 factory          factory app      00 00 00010000 00140000[0m
+[0;32mI (87) boot:  4 ota_0            OTA app          00 10 00150000 00140000[0m
+[0;32mI (94) boot:  5 ota_1            OTA app          00 11 00290000 00140000[0m
+[0;32mI (102) boot:  6 coredump         Unknown data     01 03 003d0000 00010000[0m
+[0;32mI (109) boot:  7 reserved         Unknown data     01 fe 003e0000 00020000[0m
+[0;32mI (117) boot: End of partition table[0m
+[0;32mI (121) boot: Defaulting to factory image[0m
+[0;32mI (126) esp_image: segment 0: paddr=0x00010020 vaddr=0x3f400020 size=0x20fd4 (135124) map[0m
+[0;32mI (182) esp_image: segment 1: paddr=0x00030ffc vaddr=0x3ff80000 size=0x00000 (     0) load[0m
+[0;32mI (183) esp_image: segment 2: paddr=0x00031004 vaddr=0x3ff80000 size=0x00000 (     0) load[0m
+[0;32mI (189) esp_image: segment 3: paddr=0x0003100c vaddr=0x3ffb0000 size=0x02ad0 ( 10960) load[0m
+[0;32mI (202) esp_image: segment 4: paddr=0x00033ae4 vaddr=0x3ffb2ad0 size=0x00000 (     0) load[0m
+[0;32mI (207) esp_image: segment 5: paddr=0x00033aec vaddr=0x40080000 size=0x00400 (  1024) load[0m
+[0;32mI (216) esp_image: segment 6: paddr=0x00033ef4 vaddr=0x40080400 size=0x0c11c ( 49436) load[0m
+[0;32mI (245) esp_image: segment 7: paddr=0x00040018 vaddr=0x400d0018 size=0x93188 (602504) map[0m
+[0;32mI (457) esp_image: segment 8: paddr=0x000d31a8 vaddr=0x4008c51c size=0x047c8 ( 18376) load[0m
+[0;32mI (465) esp_image: segment 9: paddr=0x000d7978 vaddr=0x400c0000 size=0x00000 (     0) load[0m
+[0;32mI (465) esp_image: segment 10: paddr=0x000d7980 vaddr=0x50000000 size=0x00000 (     0) load[0m
+[0;32mI (472) esp_image: segment 11: paddr=0x000d7988 vaddr=0x50000000 size=0x00000 (     0) load[0m
+[0;32mI (491) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (491) boot: Disabling RNG early entropy source...[0m
+[0;32mI (493) cpu_start: Pro cpu up.[0m
+[0;32mI (497) cpu_start: Application information:[0m
+[0;32mI (502) cpu_start: Project name:     master_wifi_mesh[0m
+[0;32mI (507) cpu_start: App version:      f028311-dirty[0m
+[0;32mI (513) cpu_start: Compile time:     14:42:26[0m
+[0;32mI (518) cpu_start: Compile date:     Mar 17 2019[0m
+[0;32mI (523) cpu_start: ESP-IDF:          v3.3-beta1-223-ga62cbfe[0m
+[0;32mI (529) cpu_start: Single core mode[0m
+[0;32mI (534) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (541) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (547) heap_init: At 3FFB9428 len 00026BD8 (154 KiB): DRAM[0m
+[0;32mI (553) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (560) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (566) heap_init: At 40090CE4 len 0000F31C (60 KiB): IRAM[0m
+[0;32mI (572) cpu_start: Pro cpu start user code[0m
+[0;32mI (254) esp_core_dump: Init core dump to flash[0m
+[0;32mI (255) esp_core_dump: Found partition 'coredump' @ 3d0000 65536 bytes[0m
+[0;31mE (268) esp_core_dump: Core dump data CRC check failed: 0x42dfb39e -> 0x209dd148![0m
+[0;32mI (269) cpu_start: Starting scheduler on PRO CPU.[0m
+I (296) wifi: wifi driver task: 3ffc1760, prio:23, stack:3584, core=0
+I (296) wifi: wifi firmware version: 44ce2e2
+I (297) wifi: config NVS flash: enabled
+I (299) wifi: config nano formating: disabled
+[0;32mI (303) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE[0m
+[0;32mI (313) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE[0m
+I (330) wifi: Init dynamic tx buffer num: 32
+I (330) wifi: Init data frame dynamic rx buffer num: 32
+I (331) wifi: Init management frame dynamic rx buffer num: 32
+I (337) wifi: Init static rx buffer size: 1600
+I (341) wifi: Init static rx buffer num: 10
+I (345) wifi: Init dynamic rx buffer num: 32
+I (350) wifi: Set ps type: 0
+
+[0;32mI (412) phy: phy_version: 4006, e540b8e, Dec 17 2018, 11:53:06, 0, 0[0m
+I (413) wifi: mode : sta (30:ae:a4:ea:c7:e4)
+[0;32mI (415) [mwifi, 136]: esp-mdf version: f028311-dirty[0m
+W (417) wifi: [beacon]interval:100ms
+I (421) wifi: mode : sta (30:ae:a4:ea:c7:e4) + softAP (30:ae:a4:ea:c7:e5)
+I (429) wifi: Init max length of beacon: 752/752
+I (432) wifi: Init max length of beacon: 752/752
+I (438) mesh: <nvs>read layer:0
+I (439) mesh: <nvs>read assoc:0
+I (442) mesh: [IO]disable self-organizing<reconnect>
+W (446) wifi: [beacon]interval:100ms
+I (449) mesh: [CONFIG]invalid router settings, ssid_len:0, ssid:, bssid:00:00:00:00:00:00
+I (1461) wifi: Set ps type: 0
+
+I (1466) mesh: [MANUAL]designated as root and router is not set
+[0;32mI (1467) [mwifi, 97]: MESH is started[0m
+[0;32mI (1468) [get_started, 220]: event_loop_cb, event: 0[0m
+[0;32mI (1471) [get_started, 225]: MESH is started[0m
+[0;32mI (1477) gpio: GPIO[18]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+Periodic Timer Init!!
+STARTED Periodic Timer!![0;32mI (1488) [get_started, 96]: Root is running[0m
+I (7694) wifi: new:<13,2>, old:<13,0>, ap:<13,2>, sta:<0,0>, prof:13
+I (7696) wifi: station: 80:7d:3a:f0:6a:cc join, AID=1, bgn, 40D
+[0;32mI (7698) [mwifi, 115]: Routing table is changed by adding newly joined children add_num: 1, total_num: 2[0m
+[0;32mI (7705) [get_started, 220]: event_loop_cb, event: 5[0m
+[0;32mI (7711) [get_started, 220]: event_loop_cb, event: 3[0m
+
+root_time: 256620128
+root_time: 259695584
+root_time: 262699088
+root_time: 265200540
+root_time: 268152310
+root_time: 271049354
+root_time: 273696686
+root_time: 276476145
+root_time: 279574540
+root_time: 282503537
+---------------
+root_time: 329904807
+root_time: 332360645
+root_time: 335179532
+root_time: 337789270
+root_time: 340688409
+root_time: 342964948
+root_time: 345909695
+root_time: 348362552
+root_time: 350928276
+root_time: 353448409
+---------------
+root_time: 400959351
+root_time: 403510849
+root_time: 406146732
+root_time: 408632229
+root_time: 411311875
+root_time: 413858718
+root_time: 416344193
+root_time: 418888218
+root_time: 421540946
+root_time: 424069335
+---------------
+root_time: 471244575
+root_time: 473739307
+root_time: 476429429
+root_time: 478959976
+root_time: 481457623
+root_time: 483994851
+root_time: 486908216
+root_time: 489425936
+root_time: 491964672
+root_time: 494451169
+---------------
+root_time: 541786294
+root_time: 544279855
+root_time: 546757917
+root_time: 549277029
+root_time: 551883583
+root_time: 554430220
+root_time: 556965267
+root_time: 559697307
+root_time: 562287199
+root_time: 564819778
+---------------
+root_time: 611972926
+root_time: 614558033
+root_time: 617328704
+root_time: 619867719
+root_time: 622388079
+root_time: 624870270
+root_time: 627517887
+root_time: 630073801
+root_time: 632648416
+root_time: 635226058
+---------------
+root_time: 682474481
+root_time: 685023868
+root_time: 687587620
+root_time: 690096069
+root_time: 692825940
+root_time: 695367033
+root_time: 697931642
+root_time: 700580455
+root_time: 703039261
+root_time: 705583528
+---------------
+root_time: 752838987
+root_time: 755334706
+root_time: 758574479
+root_time: 761154441
+root_time: 763641853
+root_time: 766163879
+root_time: 768801029
+root_time: 771350544
+root_time: 773907192
+root_time: 776385451
+---------------
+root_time: 823663542
+root_time: 826172278
+root_time: 828656683
+root_time: 831179812
+root_time: 833819472
+root_time: 836338701
+root_time: 838853929
+root_time: 841332907
+root_time: 843996825
+root_time: 846512487
+---------------
+root_time: 893643192
+root_time: 896229292
+root_time: 898826582
+root_time: 901338856
+root_time: 903841566
+root_time: 906441064
+root_time: 909064200
+root_time: 911560648
+root_time: 914123800
+root_time: 916849193
+---------------
+root_time: 964365859
+root_time: 966967437
+root_time: 969532129
+root_time: 972113089
+root_time: 974731956
+root_time: 977246401
+root_time: 979835107
+root_time: 982541031
+root_time: 985116433
+root_time: 987855024
+---------------
+root_time: 1035021388
+root_time: 1037540065
+root_time: 1040226809
+root_time: 1042714667
+root_time: 1045237750
+root_time: 1047846874
+root_time: 1050423559
+root_time: 1052940382
+root_time: 1055443088
+root_time: 1057943385
+---------------
+root_time: 1105493865
+root_time: 1108002329
+root_time: 1110597058
+root_time: 1113243650
+root_time: 1115672279
+root_time: 1118328151
+root_time: 1120710610
+root_time: 1123219327
+root_time: 1125936692
+root_time: 1128700623
+---------------
+root_time: 1175735057
+root_time: 1178321704
+root_time: 1181059176
+root_time: 1183821611
+root_time: 1186247709
+root_time: 1188680026
+root_time: 1191376555
+root_time: 1193903207
+root_time: 1196420636
+root_time: 1198921158
+---------------
+root_time: 1246317483
+root_time: 1248945155
+root_time: 1251449606
+root_time: 1253983385
+root_time: 1256627674
+root_time: 1259222424
+root_time: 1261747324
+root_time: 1264240046
+root_time: 1266908139
+root_time: 1269463216
+---------------
+root_time: 1316610364
+root_time: 1319410341
+root_time: 1322236440
+root_time: 1324420795
+root_time: 1326976701
+root_time: 1329472066
+root_time: 1332130020
+root_time: 1334757460
+root_time: 1337248409
+root_time: 1339852150
+---------------
+root_time: 1387100956
+root_time: 1389617468
+root_time: 1392169671
+root_time: 1394682375
+root_time: 1397462703
+root_time: 1400049919
+root_time: 1402428198
+root_time: 1405164416
+root_time: 1407729863
+root_time: 1410269814
+---------------
+root_time: 1457522720
+root_time: 1460088626
+root_time: 1462756458
+root_time: 1465281569
+root_time: 1467854703
+root_time: 1470437417
+root_time: 1472992339
+root_time: 1475552769
+root_time: 1478137932
+root_time: 1480674788
+---------------
+root_time: 1528019855
+root_time: 1530474578
+root_time: 1532980728
+root_time: 1535508066
+root_time: 1538129546
+root_time: 1540658091
+root_time: 1543411963
+root_time: 1545662898
+root_time: 1548454045
+root_time: 1551002683
+---------------
+root_time: 1598358155
+root_time: 1600875837
+root_time: 1603356935
+root_time: 1605871818
+root_time: 1608363560
+root_time: 1610857467
+root_time: 1613512333
+root_time: 1616043694
+root_time: 1618735340
+root_time: 1621366714
+---------------
+root_time: 1668761461
+root_time: 1671274582
+root_time: 1673785153
+root_time: 1676380187
+root_time: 1678954629
+root_time: 1681471868
+root_time: 1683976850
+root_time: 1686474192
+root_time: 1689305699
+root_time: 1691821766
+---------------
+root_time: 1738989472
+root_time: 1741513815
+root_time: 1744323287
+root_time: 1746848242
+root_time: 1749383374
+root_time: 1751873686
+root_time: 1754513078
+root_time: 1757054388
+root_time: 1759554889
+root_time: 1762071060
+---------------
+root_time: 1809686020
+root_time: 1812282874
+root_time: 1814823376
+root_time: 1817319383
+root_time: 1819946265
+root_time: 1822608980
+root_time: 1825079398
+root_time: 1827586912
+root_time: 1830323283
+root_time: 1832903860
+---------------
+root_time: 1880052714
+root_time: 1882553655
+root_time: 1885234272
+root_time: 1887746244
+root_time: 1890313880
+root_time: 1892745157
+root_time: 1895576623
+root_time: 1897900529
+root_time: 1900591729
+root_time: 1903082859
+---------------
+root_time: 1950571502
+root_time: 1953085336
+root_time: 1955697332
+root_time: 1958469150
+root_time: 1961181928
+root_time: 1963519326
+root_time: 1966049378
+root_time: 1968515746
+root_time: 1971150074
+root_time: 1973797146
+---------------
+root_time: 2021033463
+root_time: 2023598974
+root_time: 2026230096
+root_time: 2028745656
+root_time: 2031260278
+root_time: 2033806714
+root_time: 2036549545
+root_time: 2039103535
+root_time: 2041712081
+root_time: 2044214544
+---------------
+root_time: 2091693716
+root_time: 2094229380
+root_time: 2096922654
+root_time: 2099231326
+root_time: 2102029866
+root_time: 2104625595
+root_time: 2107211781
+root_time: 2109791738
+root_time: 2112406714
+root_time: 2114944502
+---------------
+root_time: 2162121854
+root_time: 2164636191
+root_time: 2167391234
+root_time: 2170021145
+root_time: 2172455020
+root_time: 2174996798
+root_time: 2177605967
+root_time: 2180138406
+root_time: 2182747841
+root_time: 2185416692
+---------------
+root_time: 2232578858
+root_time: 2235245720
+root_time: 2237625793
+root_time: 2240140562
+root_time: 2242764783
+root_time: 2245350703
+root_time: 2247875135
+root_time: 2250619521
+root_time: 2252988315
+root_time: 2255517698
+---------------
+root_time: 2302719822
+root_time: 2305411635
+root_time: 2308140025
+root_time: 2310710735
+root_time: 2313258849
+root_time: 2315779070
+root_time: 2318601532
+root_time: 2320953958
+root_time: 2323459007
+root_time: 2326020907
+---------------
+root_time: 2373336214
+root_time: 2375882493
+root_time: 2378491791
+root_time: 2380865158
+root_time: 2383527033
+root_time: 2386040622
+root_time: 2388578856
+root_time: 2391091115
+root_time: 2393720315
+root_time: 2396382730
+---------------
+root_time: 2443534803
+root_time: 2446142262
+root_time: 2448856327
+root_time: 2451369195
+root_time: 2453969620
+root_time: 2456407985
+root_time: 2459182394
+root_time: 2461706263
+root_time: 2464200685
+root_time: 2466706569
+---------------
+root_time: 2514077384
+root_time: 2516537625
+root_time: 2519065700
+root_time: 2521560618
+root_time: 2524225361
+root_time: 2526795624
+root_time: 2529435343
+root_time: 2531800699
+root_time: 2534717373
+root_time: 2536937015
+---------------
+root_time: 2584129365
+root_time: 2586636235
+root_time: 2589321117
+root_time: 2591922708
+root_time: 2594380694
+root_time: 2596892917
+root_time: 2599514691
+root_time: 2602070757
+root_time: 2604577016
+root_time: 2607070774
+---------------
+root_time: 2654517259
+root_time: 2656968409
+root_time: 2659497021
+root_time: 2662071738
+root_time: 2664690843
+root_time: 2667283066
+root_time: 2669881074
+root_time: 2672269252
+root_time: 2674918880
+root_time: 2677436194
+---------------
+root_time: 2724571477
+root_time: 2727200394
+root_time: 2729709195
+root_time: 2732272603
+root_time: 2734757645
+root_time: 2737274524
+root_time: 2739908607
+root_time: 2742442342
+root_time: 2744944839
+root_time: 2747616058
+---------------
+root_time: 2794742902
+root_time: 2797269012
+root_time: 2799768409
+root_time: 2802301447
+root_time: 2804939527
+root_time: 2807528726
+root_time: 2809991905
+root_time: 2812467993
+root_time: 2815241356
+root_time: 2817832994
+---------------
+root_time: 2865022894
+root_time: 2867503060
+root_time: 2870122521
+root_time: 2872663552
+root_time: 2875266861
+root_time: 2877756051
+root_time: 2880436579
+root_time: 2883074141
+root_time: 2885553494
+root_time: 2888147836
+---------------
+root_time: 2935444801
+root_time: 2938005730
+root_time: 2940512779
+root_time: 2942994989
+root_time: 2945672979
+root_time: 2948360985
+root_time: 2950663047
+root_time: 2953315398
+root_time: 2955797689
+root_time: 2958345461
+---------------
+root_time: 3005594248
+root_time: 3008063379
+root_time: 3010704520
+root_time: 3013211666
+root_time: 3015752482
+root_time: 3018309258
+root_time: 3020995444
+root_time: 3023541447
+root_time: 3026131490
+root_time: 3028666634
+---------------
+root_time: 3076047857
+root_time: 3078476794
+root_time: 3081018535
+root_time: 3083600403
+root_time: 3086297344
+root_time: 3088864365
+root_time: 3091367779
+root_time: 3093873785
+root_time: 3096590560
+root_time: 3099198088
+---------------
+root_time: 3146330500
+root_time: 3148757334
+root_time: 3151416857
+root_time: 3154140590
+root_time: 3156438277
+root_time: 3158979510
+root_time: 3161708739
+root_time: 3164312416
+root_time: 3166835627
+root_time: 3169453897
+---------------
+root_time: 3216785763
+root_time: 3219432769
+root_time: 3221873868
+root_time: 3224460243
+root_time: 3227142904
+root_time: 3229649195
+root_time: 3232307595
+root_time: 3234679007
+root_time: 3237306177
+root_time: 3239841773
+---------------
+root_time: 3286971495
+root_time: 3289628367
+root_time: 3292450822
+root_time: 3295151279
+root_time: 3297763573
+root_time: 3300079023
+root_time: 3302796317
+root_time: 3305349229
+root_time: 3307842591
+root_time: 3310380947
+---------------
+root_time: 3357754012
+root_time: 3360263380
+root_time: 3362796753
+root_time: 3365284768
+root_time: 3367990451
+root_time: 3370483884
+root_time: 3372956609
+root_time: 3375570531
+root_time: 3378180538
+root_time: 3380736339
+---------------
+root_time: 3427890853
+root_time: 3430359903
+root_time: 3433231031
+root_time: 3435750729
+root_time: 3438252760
+root_time: 3440742079
+root_time: 3443351199
+root_time: 3445941763
+root_time: 3448427554
+root_time: 3450920427
+---------------
+root_time: 3498193942
+root_time: 3500681085
+root_time: 3503223860
+root_time: 3505746525
+root_time: 3508359701
+root_time: 3510917019
+root_time: 3513418670
+root_time: 3515944840
+root_time: 3518706573
+root_time: 3521115831
+---------------
+root_time: 3568496377
+root_time: 3570948742
+root_time: 3573520196
+root_time: 3576270534
+root_time: 3578562034
+root_time: 3581061577
+root_time: 3583728462
+root_time: 3586241604
+root_time: 3588744518
+root_time: 3591380087
+---------------
+root_time: 3638637137
+root_time: 3641337782
+root_time: 3643714835
+root_time: 3646223059
+root_time: 3648940306
+root_time: 3651450184
+root_time: 3653987342
+root_time: 3656484145
+root_time: 3659184360
+root_time: 3661739511
+---------------
+root_time: 3708984801
+root_time: 3711469039
+root_time: 3714083885
+root_time: 3716622242
+root_time: 3719147477
+root_time: 3721633408
+root_time: 3724267559
+root_time: 3726853386
+root_time: 3729323649
+root_time: 3732031265
+---------------
+root_time: 3779114257
+root_time: 3781623051
+root_time: 3784186505
+root_time: 3786701932
+root_time: 3789410337
+root_time: 3792098970
+root_time: 3794468945
+root_time: 3796940118
+root_time: 3799617955
+root_time: 3802146528
+---------------
+root_time: 3849517752
+root_time: 3851906693
+root_time: 3854592181
+root_time: 3857134230
+root_time: 3859663841
+root_time: 3862293234
+root_time: 3864946506
+root_time: 3867472183
+root_time: 3870017792
+root_time: 3872619014
+---------------
+root_time: 3920105497
+root_time: 3922443551
+root_time: 3925032914
+root_time: 3927573843
+root_time: 3930398332
+root_time: 3932865699
+root_time: 3935436836
+root_time: 3937933903
+root_time: 3940604779
+root_time: 3943122534
+---------------
+root_time: 3990336701
+root_time: 3992864514
+root_time: 3995626703
+root_time: 3998217934
+root_time: 4000592812
+root_time: 4003174226
+root_time: 4005873498
+root_time: 4008400138
+root_time: 4010977007
+root_time: 4013548399
+---------------
+root_time: 4060803475
+root_time: 4063347442
+root_time: 4065911899
+root_time: 4068416544
+root_time: 4071070103
+root_time: 4073607199
+root_time: 4076152967
+root_time: 4078798112
+root_time: 4081492113
+root_time: 4083988338
+---------------
+root_time: 4131330168
+root_time: 4133776055
+root_time: 4136494551
+root_time: 4139009670
+root_time: 4141577491
+root_time: 4144058219
+root_time: 4146671759
+root_time: 4149233834
+root_time: 4151722248
+root_time: 4154229201
+---------------
+root_time: 4201649783
+root_time: 4204138063
+root_time: 4206660658
+root_time: 4209155862
+root_time: 4211875305
+root_time: 4214349045
+root_time: 4216897151
+root_time: 4219553263
+root_time: 4222450331
+root_time: 4224907513I (107706) mesh: [scan]new scanning time:1500ms
+W (107706) wifi: [beacon]new interval:1000ms
+
+---------------
+root_time: 4272111398
+root_time: 4274523546
+root_time: 4277131483
+root_time: 4279718168
+root_time: 4282119083
+root_time: 4284745594
+root_time: 4287248252
+root_time: 4289765964
+root_time: 4292308887
+root_time: 4294817784
+---------------
+root_time: 4342322546
+root_time: 4344639456
+root_time: 4347157750
+root_time: 4349644435
+root_time: 4352257488
+root_time: 4354766874
+root_time: 4357381769
+root_time: 4359784019
+root_time: 4362360442
+root_time: 4364885680
+---------------
+root_time: 4412072920
+root_time: 4414657761
+root_time: 4417233718
+root_time: 4419847777
+root_time: 4422340379
+root_time: 4424794536
+root_time: 4427553707
+root_time: 4430090344
+root_time: 4432552941
+root_time: 4435202702
+---------------
+root_time: 4482327358
+root_time: 4484824018
+root_time: 4487392759
+root_time: 4489906099
+root_time: 4492662250
+root_time: 4495164969
+root_time: 4497684603
+root_time: 4500203916
+root_time: 4502932503
+root_time: 4505438416
+---------------
+root_time: 4552577022
+root_time: 4555046401
+root_time: 4557841307
+root_time: 4560400591
+root_time: 4562899467
+root_time: 4565393529
+root_time: 4568098414
+root_time: 4570597276
+root_time: 4573078621
+root_time: 4575595520
+---------------
+root_time: 4622877194
+root_time: 4625407939
+root_time: 4627925736
+root_time: 4630486053
+root_time: 4633521829
+root_time: 4636099628
+root_time: 4638550303
+root_time: 4641233183
+root_time: 4643642712
+root_time: 4646210524
+---------------
+root_time: 4693380605
+root_time: 4695881639
+root_time: 4698562642
+root_time: 4701089364
+root_time: 4703612886
+root_time: 4706159004
+root_time: 4708777962
+root_time: 4711280850
+root_time: 4713814861
+root_time: 4716291332
+---------------
+root_time: 4763536224
+root_time: 4766040981
+root_time: 4768657493
+root_time: 4771058725
+root_time: 4773688342
+root_time: 4776216852
+root_time: 4778712117
+root_time: 4781353659
+root_time: 4783833565
+root_time: 4786377656
+---------------
+root_time: 4833498125
+root_time: 4835973544
+root_time: 4838599242
+root_time: 4841219703
+root_time: 4843633780
+root_time: 4846115219
+root_time: 4848722164
+root_time: 4851239979
+root_time: 4853722949
+root_time: 4856226008
+---------------
+root_time: 4903585317
+root_time: 4906178505
+root_time: 4908608409
+root_time: 4911187157
+root_time: 4913772664
+root_time: 4916330330
+root_time: 4918756914
+root_time: 4921233013
+root_time: 4923916524
+root_time: 4926462378
+---------------
+root_time: 4973618287
+root_time: 4976081212
+root_time: 4978774540
+root_time: 4981327498
+root_time: 4983835375
+root_time: 4986320642
+root_time: 4988985545
+root_time: 4991519363
+root_time: 4993978566
+root_time: 4996515370
+---------------
+root_time: 5043876377
+root_time: 5046363143
+root_time: 5048881316
+root_time: 5051352381
+root_time: 5054138544
+root_time: 5056513438
+root_time: 5059018092
+root_time: 5061658415
+root_time: 5064124688
+root_time: 5066639548
+---------------
+root_time: 5113782397
+root_time: 5116329354
+root_time: 5118928252
+root_time: 5121448224
+root_time: 5123965804
+root_time: 5126481213
+root_time: 5129070177
+root_time: 5131599637
+root_time: 5134081581
+root_time: 5136590946
+---------------
+root_time: 5183883283
+root_time: 5186403783
+root_time: 5188943377
+root_time: 5191355719
+root_time: 5194022904
+root_time: 5196521121
+root_time: 5199052567
+root_time: 5201589121
+root_time: 5204210972
+root_time: 5206921094
+---------------
+root_time: 5253979997
+root_time: 5256433491
+root_time: 5259087758
+root_time: 5261628227
+root_time: 5264096822
+root_time: 5266569671
+root_time: 5269162831
+root_time: 5271680314
+root_time: 5274158987
+root_time: 5276667913
+---------------
+root_time: 5323951360
+root_time: 5326618853
+root_time: 5328972553
+root_time: 5331482132
+root_time: 5334101921
+root_time: 5336594836
+root_time: 5339078658
+root_time: 5341590419
+root_time: 5344344592
+root_time: 5346850330
+---------------
+root_time: 5394219962
+root_time: 5396473675
+root_time: 5399110322
+root_time: 5401641439
+root_time: 5404167821
+root_time: 5406738536
+root_time: 5409352047
+root_time: 5411861112
+root_time: 5414415027
+root_time: 5416750877
+---------------
+root_time: 5464046714
+root_time: 5466573235
+root_time: 5469044355
+root_time: 5471510412
+root_time: 5474123836
+root_time: 5476631947
+root_time: 5479120255
+root_time: 5481620021
+root_time: 5484367789
+root_time: 5486841852
+---------------
+root_time: 5534058725
+root_time: 5536557654
+root_time: 5539090663
+root_time: 5541623862
+root_time: 5544118897
+root_time: 5546609863
+root_time: 5549298886
+root_time: 5551719027
+root_time: 5554201823
+root_time: 5556690848
+---------------
+root_time: 5604125762
+root_time: 5606684047
+root_time: 5609158516
+root_time: 5611725525

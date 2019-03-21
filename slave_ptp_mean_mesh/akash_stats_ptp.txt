@@ -1,0 +1,3103 @@
+Toolchain path: /home/natsubuntu/esp32/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+Toolchain version: crosstool-ng-1.22.0-80-g6c4433a
+Compiler version: 5.2.0
+Python requirements from /home/natsubuntu/esp32/esp-mdf/esp-idf/requirements.txt are satisfied.
+MONITOR
+•◊ÅJµ∏í0LÇ∞ßí“ïSHË
+≤.W¬x±¬êÍ5©ØÍ%çÖU…í˝ØóÇ¬E≥BSï}ôÅ*’e±¡*Í%=O©ä¨ÀKÂßNiÄ¢Ä*ï]Å∫¬ï’ç°,ÎΩ‰Æ¬∏Ç¨úE…Ÿ∫¬¡0å÷E…Ÿ∫¬¡0å¨.˙—≤óÇ‚A∞	K}ëÚWÇ¬A∞È¡Ω§éW¬x∞jä€K’öTÍäÇ£Î+≠A§“ç!Î+—∫¬Õf÷¡ê,bÏYã‚çÎÖ—∫¬Õf¶Ç±,…’ÆáSÍ2ç!Î≈§'¬—0êÇ¬0¨´π:L 5≤!Î≈‰'¬qê¬∞Ç¢lÂK≤Úì¶®eK…Â†¬—0ê¬ó≥à[0;32mI (28) boot: ESP-IDF v3.3-beta1-223-ga62cbfe 2nd stage bootloader[0m
+[0;32mI (28) boot: compile time 13:33:51[0m
+[0;32mI (28) boot: Enabling RNG early entropy source...[0m
+[0;32mI (34) boot: SPI Speed      : 40MHz[0m
+[0;32mI (38) boot: SPI Mode       : DIO[0m
+[0;32mI (42) boot: SPI Flash Size : 4MB[0m
+[0;32mI (46) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (65) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (72) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  3 factory          factory app      00 00 00010000 00140000[0m
+[0;32mI (87) boot:  4 ota_0            OTA app          00 10 00150000 00140000[0m
+[0;32mI (94) boot:  5 ota_1            OTA app          00 11 00290000 00140000[0m
+[0;32mI (102) boot:  6 coredump         Unknown data     01 03 003d0000 00010000[0m
+[0;32mI (109) boot:  7 reserved         Unknown data     01 fe 003e0000 00020000[0m
+[0;32mI (117) boot: End of partition table[0m
+[0;32mI (121) boot: Defaulting to factory image[0m
+[0;32mI (126) esp_image: segment 0: paddr=0x00010020 vaddr=0x3f400020 size=0x2116c (135532) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=0x00031194 vaddr=0x3ff80000 size=0x00000 (     0) load[0m
+[0;32mI (183) esp_image: segment 2: paddr=0x0003119c vaddr=0x3ff80000 size=0x00000 (     0) load[0m
+[0;32mI (189) esp_image: segment 3: paddr=0x000311a4 vaddr=0x3ffb0000 size=0x02ad0 ( 10960) load[0m
+[0;32mI (202) esp_image: segment 4: paddr=0x00033c7c vaddr=0x3ffb2ad0 size=0x00000 (     0) load[0m
+[0;32mI (207) esp_image: segment 5: paddr=0x00033c84 vaddr=0x40080000 size=0x00400 (  1024) load[0m
+[0;32mI (216) esp_image: segment 6: paddr=0x0003408c vaddr=0x40080400 size=0x0bf84 ( 49028) load[0m
+[0;32mI (245) esp_image: segment 7: paddr=0x00040018 vaddr=0x400d0018 size=0x973e0 (619488) map[0m
+[0;32mI (463) esp_image: segment 8: paddr=0x000d7400 vaddr=0x4008c384 size=0x0496c ( 18796) load[0m
+[0;32mI (471) esp_image: segment 9: paddr=0x000dbd74 vaddr=0x400c0000 size=0x00000 (     0) load[0m
+[0;32mI (471) esp_image: segment 10: paddr=0x000dbd7c vaddr=0x50000000 size=0x00000 (     0) load[0m
+[0;32mI (478) esp_image: segment 11: paddr=0x000dbd84 vaddr=0x50000000 size=0x00000 (     0) load[0m
+[0;32mI (497) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (497) boot: Disabling RNG early entropy source...[0m
+[0;32mI (499) cpu_start: Pro cpu up.[0m
+[0;32mI (503) cpu_start: Application information:[0m
+[0;32mI (508) cpu_start: Project name:     slave_ptp_mean_mesh[0m
+[0;32mI (513) cpu_start: App version:      f028311-dirty[0m
+[0;32mI (519) cpu_start: Compile time:     15:36:01[0m
+[0;32mI (524) cpu_start: Compile date:     Mar 19 2019[0m
+[0;32mI (529) cpu_start: ESP-IDF:          v3.3-beta1-223-ga62cbfe[0m
+[0;32mI (536) cpu_start: Single core mode[0m
+[0;32mI (540) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (547) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (553) heap_init: At 3FFB9490 len 00026B70 (154 KiB): DRAM[0m
+[0;32mI (559) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (566) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (572) heap_init: At 40090CF0 len 0000F310 (60 KiB): IRAM[0m
+[0;32mI (578) cpu_start: Pro cpu start user code[0m
+[0;32mI (261) esp_core_dump: Init core dump to flash[0m
+[0;32mI (261) esp_core_dump: Found partition 'coredump' @ 3d0000 65536 bytes[0m
+[0;32mI (265) cpu_start: Found core dump 12952 bytes in flash @ 0x3d0000[0m
+[0;32mI (269) cpu_start: Starting scheduler on PRO CPU.[0m
+Hello World!I (299) wifi: wifi driver task: 3ffc17c0, prio:23, stack:3584, core=0
+I (299) wifi: wifi firmware version: 44ce2e2
+I (300) wifi: config NVS flash: enabled
+I (303) wifi: config nano formating: disabled
+[0;32mI (307) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE[0m
+[0;32mI (317) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE[0m
+I (334) wifi: Init dynamic tx buffer num: 32
+I (334) wifi: Init data frame dynamic rx buffer num: 32
+I (335) wifi: Init management frame dynamic rx buffer num: 32
+I (341) wifi: Init static rx buffer size: 1600
+I (345) wifi: Init static rx buffer num: 10
+I (349) wifi: Init dynamic rx buffer num: 32
+I (354) wifi: Set ps type: 0
+
+[0;32mI (412) phy: phy_version: 4006, e540b8e, Dec 17 2018, 11:53:06, 0, 0[0m
+I (414) wifi: mode : sta (80:7d:3a:f0:6a:cc)
+[0;32mI (416) [mwifi, 136]: esp-mdf version: f028311-dirty[0m
+W (418) wifi: [beacon]new interval:100ms
+I (423) wifi: mode : sta (80:7d:3a:f0:6a:cc) + softAP (80:7d:3a:f0:6a:cd)
+I (429) wifi: Init max length of beacon: 752/752
+I (433) wifi: Init max length of beacon: 752/752
+W (441) wifi: [beacon]interval:100ms
+I (441) mesh: [CONFIG]invalid router settings, ssid_len:0, ssid:, bssid:00:00:00:00:00:00
+I (1446) wifi: Set ps type: 0
+
+[0;32mI (1451) [mwifi, 97]: MESH is started[0m
+[0;32mI (1451) [get_started, 326]: event_loop_cb, event: 0[0m
+[0;32mI (1451) [get_started, 331]: MESH is started[0m
+START Time Sync[0;32mI (1456) gpio: GPIO[18]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+I (1752) mesh: [SCAN][ch:13]AP:1, otherID:0, MAP:1, idle:0, candidate:1, root:1, topMAP:0[c:0,i:0][00:00:00:00:00:00][FIXED-ROOT]<>
+I (1753) mesh: 6264[selection]try rssi_threshold:-78, backoff times:0, max:5<-78,-82,-85>
+I (1761) mesh: [DONE]connect to parent:ESPM_EAC7E4, channel:13, rssi:-32, 30:ae:a4:ea:c7:e5[layer:1, assoc:0], my_vote_num:0/voter_num:0, rc[00:00:00:00:00:00/-120]
+I (3284) wifi: new:<13,2>, old:<13,0>, ap:<13,2>, sta:<13,2>, prof:13
+I (3286) wifi: state: init -> auth (b0)
+I (3290) wifi: state: auth -> assoc (0)
+I (3298) wifi: state: assoc -> run (10)
+I (3299) wifi: connected with ESPM_EAC7E4, channel 13, bssid = 30:ae:a4:ea:c7:e5
+I (3353) wifi: pm start, type: 0
+
+I (3358) mesh: [scan]new scanning time:600ms
+W (3359) wifi: [beacon]new interval:300ms
+[0;32mI (3360) [mwifi, 66]: Parent is connected[0m
+[0;32mI (3361) [get_started, 326]: event_loop_cb, event: 7[0m
+[0;32mI (3366) [get_started, 335]: Parent is connected on station interface[0m
+[0;32mI (3373) [get_started, 326]: event_loop_cb, event: 11[0m
+[0;32mI (3379) [get_started, 326]: event_loop_cb, event: 14[0m
+Writing Out to Master
+ Count: 0Periodic Timer Init!!
+ INIT Periodic Timer!!Counter: 0x00000000093420f5
+Counter: 154411253 
+Time   : 3.8602813250 s
+
+STARTED Periodic Timer!!
+slave estimate: 845588747
+ Count: 1
+slave estimate: 852123677
+ Count: 2
+slave estimate: 858043862
+ Count: 3
+slave estimate: 863532364
+ Count: 4
+slave estimate: 868896132
+ Count: 5
+slave estimate: 874030387
+ Count: 6
+slave estimate: 878860455
+ Count: 7
+slave estimate: 883627980
+ Count: 8
+slave estimate: 888505457
+ Count: 9
+slave estimate: 893399164
+ Count: 10
+slave estimate: 898118063
+ Count: 11
+slave estimate: 902763241
+ Count: 12
+slave estimate: 907353339
+ Count: 13
+slave estimate: 911930803
+ Count: 14
+slave estimate: 916557205
+time_between_wifi_read: 857066
+time_between_wifi_write: 624477
+time_of_offset: 766174886
+time_of_delay: 1004678
+single_ptp_pass: 766319898
+time_between_wifi_read: 1958753
+time_between_wifi_write: 359893
+time_of_offset: 6344250
+time_of_delay: 607073
+single_ptp_pass: 7838329
+time_between_wifi_read: 1515452
+time_between_wifi_write: 415913
+time_of_offset: 5990764
+time_of_delay: 415566
+single_ptp_pass: 7533308
+time_between_wifi_read: 1972338
+time_between_wifi_write: 359733
+time_of_offset: 5500032
+time_of_delay: 382852
+single_ptp_pass: 7462580
+time_between_wifi_read: 1796128
+time_between_wifi_write: 362400
+time_of_offset: 5388064
+time_of_delay: 382120
+single_ptp_pass: 7164618
+time_between_wifi_read: 1959150
+time_between_wifi_write: 208851
+time_of_offset: 5097629
+time_of_delay: 308530
+single_ptp_pass: 6888863
+time_between_wifi_read: 1779637
+time_between_wifi_write: 213482
+time_of_offset: 4868525
+time_of_delay: 232741
+single_ptp_pass: 6680887
+time_between_wifi_read: 1930835
+time_between_wifi_write: 222002
+time_of_offset: 4821670
+time_of_delay: 234567
+single_ptp_pass: 6769900
+time_between_wifi_read: 1787134
+time_between_wifi_write: 200379
+time_of_offset: 4946997
+time_of_delay: 222101
+single_ptp_pass: 6729032
+time_between_wifi_read: 1954803
+time_between_wifi_write: 207664
+time_of_offset: 4937544
+time_of_delay: 226196
+single_ptp_pass: 6876019
+time_between_wifi_read: 1809621
+time_between_wifi_write: 159578
+time_of_offset: 4748948
+time_of_delay: 200669
+single_ptp_pass: 6487173
+time_between_wifi_read: 2010911
+time_between_wifi_write: 156371
+time_of_offset: 4585661
+time_of_delay: 236456
+single_ptp_pass: 6466705
+time_between_wifi_read: 1811792
+time_between_wifi_write: 147508
+time_of_offset: 4633390
+time_of_delay: 167186
+single_ptp_pass: 6442802
+time_between_wifi_read: 1959023
+time_between_wifi_write: 265546
+time_of_offset: 4689360
+time_of_delay: 241439
+single_ptp_pass: 6626827
+time_between_wifi_read: 1730993
+time_between_wifi_write: 165559
+time_of_offset: 4679167
+time_of_delay: 178318
+single_ptp_pass: 6410871
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 966568465
+ Count: 1
+slave estimate: 971030962
+ Count: 2
+slave estimate: 975580693
+ Count: 3
+slave estimate: 980157277
+ Count: 4
+slave estimate: 984971175
+ Count: 5
+slave estimate: 989406352
+ Count: 6
+slave estimate: 993862537
+ Count: 7
+slave estimate: 998257843
+ Count: 8
+slave estimate: 1002649938
+ Count: 9
+slave estimate: 1007330672
+ Count: 10
+slave estimate: 1011856762
+ Count: 11
+slave estimate: 1016276227
+ Count: 12
+slave estimate: 1020752021
+ Count: 13
+slave estimate: 1025430976
+ Count: 14
+slave estimate: 1029963885
+time_between_wifi_read: 176017
+time_between_wifi_write: 122101
+time_of_offset: 4526804
+time_of_delay: 154133
+single_ptp_pass: 4666523
+time_between_wifi_read: 1899623
+time_between_wifi_write: 129928
+time_of_offset: 4479870
+time_of_delay: 187733
+single_ptp_pass: 6292632
+time_between_wifi_read: 1952934
+time_between_wifi_write: 125720
+time_of_offset: 4614636
+time_of_delay: 154294
+single_ptp_pass: 6545363
+time_between_wifi_read: 1772382
+time_between_wifi_write: 133582
+time_of_offset: 4634430
+time_of_delay: 152045
+single_ptp_pass: 6597145
+time_between_wifi_read: 1923449
+time_between_wifi_write: 130084
+time_of_offset: 4867021
+time_of_delay: 153181
+single_ptp_pass: 6776783
+time_between_wifi_read: 1854969
+time_between_wifi_write: 135455
+time_of_offset: 4476522
+time_of_delay: 179151
+single_ptp_pass: 6266080
+time_between_wifi_read: 1944652
+time_between_wifi_write: 122729
+time_of_offset: 4498319
+time_of_delay: 153668
+single_ptp_pass: 6432668
+time_between_wifi_read: 1785947
+time_between_wifi_write: 127585
+time_of_offset: 4452718
+time_of_delay: 143758
+single_ptp_pass: 6304649
+time_between_wifi_read: 1863541
+time_between_wifi_write: 125619
+time_of_offset: 4501132
+time_of_delay: 150675
+single_ptp_pass: 6353091
+time_between_wifi_read: 2015634
+time_between_wifi_write: 123840
+time_of_offset: 4641647
+time_of_delay: 251093
+single_ptp_pass: 6438383
+time_between_wifi_read: 1953304
+time_between_wifi_write: 116281
+time_of_offset: 4551410
+time_of_delay: 147319
+single_ptp_pass: 6485722
+time_between_wifi_read: 1659632
+time_between_wifi_write: 118049
+time_of_offset: 4434186
+time_of_delay: 158726
+single_ptp_pass: 6099654
+time_between_wifi_read: 1946475
+time_between_wifi_write: 171222
+time_of_offset: 4549771
+time_of_delay: 169552
+single_ptp_pass: 6486313
+time_between_wifi_read: 1952264
+time_between_wifi_write: 238133
+time_of_offset: 4706237
+time_of_delay: 277643
+single_ptp_pass: 6492146
+time_between_wifi_read: 1959656
+time_between_wifi_write: 120211
+time_of_offset: 4564032
+time_of_delay: 144996
+single_ptp_pass: 6589443
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 1079932537
+ Count: 1
+slave estimate: 1084321480
+ Count: 2
+slave estimate: 1088943766
+ Count: 3
+slave estimate: 1093510141
+ Count: 4
+slave estimate: 1097949238
+ Count: 5
+slave estimate: 1102570886
+ Count: 6
+slave estimate: 1107224444
+ Count: 7
+slave estimate: 1111881915
+ Count: 8
+slave estimate: 1116487797
+ Count: 9
+slave estimate: 1121462561
+ Count: 10
+slave estimate: 1126109982
+ Count: 11
+slave estimate: 1130520729
+ Count: 12
+slave estimate: 1134883332
+ Count: 13
+slave estimate: 1139283035
+ Count: 14
+slave estimate: 1144034989
+time_between_wifi_read: 135732
+time_between_wifi_write: 141416
+time_of_offset: 4620520
+time_of_delay: 149528
+single_ptp_pass: 4751665
+time_between_wifi_read: 1863452
+time_between_wifi_write: 119059
+time_of_offset: 4450407
+time_of_delay: 142481
+single_ptp_pass: 6402543
+time_between_wifi_read: 1747732
+time_between_wifi_write: 205400
+time_of_offset: 4729489
+time_of_delay: 201946
+single_ptp_pass: 6492492
+time_between_wifi_read: 1941263
+time_between_wifi_write: 114625
+time_of_offset: 4635429
+time_of_delay: 142495
+single_ptp_pass: 6563338
+time_between_wifi_read: 1660714
+time_between_wifi_write: 121673
+time_of_offset: 4446414
+time_of_delay: 158708
+single_ptp_pass: 6136402
+time_between_wifi_read: 1958237
+time_between_wifi_write: 367890
+time_of_offset: 4771667
+time_of_delay: 265871
+single_ptp_pass: 6838585
+time_between_wifi_read: 1650422
+time_between_wifi_write: 138412
+time_of_offset: 4710710
+time_of_delay: 160770
+single_ptp_pass: 6450801
+time_between_wifi_read: 1943952
+time_between_wifi_write: 345762
+time_of_offset: 4817455
+time_of_delay: 263953
+single_ptp_pass: 6743113
+time_between_wifi_read: 1704851
+time_between_wifi_write: 237214
+time_of_offset: 4685621
+time_of_delay: 197260
+single_ptp_pass: 6741102
+time_between_wifi_read: 2025476
+time_between_wifi_write: 110865
+time_of_offset: 4904810
+time_of_delay: 219472
+single_ptp_pass: 6915829
+time_between_wifi_read: 1788894
+time_between_wifi_write: 114626
+time_of_offset: 4725730
+time_of_delay: 140248
+single_ptp_pass: 6507362
+time_between_wifi_read: 1955684
+time_between_wifi_write: 111930
+time_of_offset: 4443781
+time_of_delay: 137135
+single_ptp_pass: 6379062
+time_between_wifi_read: 1780831
+time_between_wifi_write: 108118
+time_of_offset: 4406716
+time_of_delay: 140883
+single_ptp_pass: 6166503
+time_between_wifi_read: 1979166
+time_between_wifi_write: 113197
+time_of_offset: 4416761
+time_of_delay: 138265
+single_ptp_pass: 6713913
+time_between_wifi_read: 1663727
+time_between_wifi_write: 119892
+time_of_offset: 4792450
+time_of_delay: 145816
+single_ptp_pass: 6766483
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 1194163228
+ Count: 1
+slave estimate: 1198560713
+ Count: 2
+slave estimate: 1203101806
+ Count: 3
+slave estimate: 1207801201
+ Count: 4
+slave estimate: 1212427113
+ Count: 5
+slave estimate: 1216950567
+ Count: 6
+slave estimate: 1221489775
+ Count: 7
+slave estimate: 1225949541
+ Count: 8
+slave estimate: 1230428207
+ Count: 9
+slave estimate: 1234797924
+ Count: 10
+slave estimate: 1239264215
+ Count: 11
+slave estimate: 1243811816
+ Count: 12
+slave estimate: 1248233059
+ Count: 13
+slave estimate: 1252967979
+ Count: 14
+slave estimate: 1257563016
+time_between_wifi_read: 187924
+time_between_wifi_write: 94048
+time_of_offset: 4952564
+time_of_delay: 137307
+single_ptp_pass: 5096256
+time_between_wifi_read: 1819398
+time_between_wifi_write: 125718
+time_of_offset: 4431569
+time_of_delay: 147274
+single_ptp_pass: 6315992
+time_between_wifi_read: 2031183
+time_between_wifi_write: 175836
+time_of_offset: 4593950
+time_of_delay: 205528
+single_ptp_pass: 6572068
+time_between_wifi_read: 1777116
+time_between_wifi_write: 281297
+time_of_offset: 4836466
+time_of_delay: 220397
+single_ptp_pass: 6775919
+time_between_wifi_read: 1772355
+time_between_wifi_write: 97744
+time_of_offset: 4682925
+time_of_delay: 131210
+single_ptp_pass: 6554146
+time_between_wifi_read: 1741472
+time_between_wifi_write: 174329
+time_of_offset: 4598142
+time_of_delay: 169337
+single_ptp_pass: 6440671
+time_between_wifi_read: 1944656
+time_between_wifi_write: 103780
+time_of_offset: 4569200
+time_of_delay: 132449
+single_ptp_pass: 6504244
+time_between_wifi_read: 1868814
+time_between_wifi_write: 102894
+time_of_offset: 4487010
+time_of_delay: 187733
+single_ptp_pass: 6364560
+time_between_wifi_read: 1879667
+time_between_wifi_write: 94063
+time_of_offset: 4574724
+time_of_delay: 128500
+single_ptp_pass: 6428560
+time_between_wifi_read: 1687339
+time_between_wifi_write: 106389
+time_of_offset: 4386179
+time_of_delay: 141498
+single_ptp_pass: 6044073
+time_between_wifi_read: 1926470
+time_between_wifi_write: 120051
+time_of_offset: 4503908
+time_of_delay: 145918
+single_ptp_pass: 6459481
+time_between_wifi_read: 1888294
+time_between_wifi_write: 152786
+time_of_offset: 4581181
+time_of_delay: 195891
+single_ptp_pass: 6368200
+time_between_wifi_read: 1896322
+time_between_wifi_write: 107557
+time_of_offset: 4471678
+time_of_delay: 138260
+single_ptp_pass: 6370530
+time_between_wifi_read: 1672906
+time_between_wifi_write: 255388
+time_of_offset: 4795171
+time_of_delay: 268269
+single_ptp_pass: 6337136
+time_between_wifi_read: 2081670
+time_between_wifi_write: 102985
+time_of_offset: 4532453
+time_of_delay: 221902
+single_ptp_pass: 6421043
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 1307831647
+ Count: 1
+slave estimate: 1312437208
+ Count: 2
+slave estimate: 1316835013
+ Count: 3
+slave estimate: 1321202906
+ Count: 4
+slave estimate: 1325686473
+ Count: 5
+slave estimate: 1330095553
+ Count: 6
+slave estimate: 1334673010
+ Count: 7
+slave estimate: 1339130665
+ Count: 8
+slave estimate: 1343532053
+ Count: 9
+slave estimate: 1347934176
+ Count: 10
+slave estimate: 1352377495
+ Count: 11
+slave estimate: 1356961650
+ Count: 12
+slave estimate: 1361404101
+ Count: 13
+slave estimate: 1365909504
+ Count: 14
+slave estimate: 1370359753
+time_between_wifi_read: 278155
+time_between_wifi_write: 200370
+time_of_offset: 4609672
+time_of_delay: 250825
+single_ptp_pass: 4857667
+time_between_wifi_read: 1970608
+time_between_wifi_write: 114997
+time_of_offset: 4650264
+time_of_delay: 141479
+single_ptp_pass: 6614308
+time_between_wifi_read: 1663974
+time_between_wifi_write: 98826
+time_of_offset: 4441487
+time_of_delay: 125287
+single_ptp_pass: 6096494
+time_between_wifi_read: 1929392
+time_between_wifi_write: 109816
+time_of_offset: 4397482
+time_of_delay: 141247
+single_ptp_pass: 6393101
+time_between_wifi_read: 1620465
+time_between_wifi_write: 115983
+time_of_offset: 4520204
+time_of_delay: 136846
+single_ptp_pass: 6137698
+time_between_wifi_read: 1984927
+time_between_wifi_write: 106652
+time_of_offset: 4437847
+time_of_delay: 145431
+single_ptp_pass: 6558520
+time_between_wifi_read: 1285084
+time_between_wifi_write: 98170
+time_of_offset: 4606806
+time_of_delay: 124550
+single_ptp_pass: 5881404
+time_between_wifi_read: 1923721
+time_between_wifi_write: 111186
+time_of_offset: 4484004
+time_of_delay: 146945
+single_ptp_pass: 6378334
+time_between_wifi_read: 1829535
+time_between_wifi_write: 106719
+time_of_offset: 4415742
+time_of_delay: 128349
+single_ptp_pass: 6241931
+time_between_wifi_read: 2075000
+time_between_wifi_write: 99206
+time_of_offset: 4379800
+time_of_delay: 195698
+single_ptp_pass: 6313752
+time_between_wifi_read: 1785371
+time_between_wifi_write: 140805
+time_of_offset: 4504184
+time_of_delay: 155710
+single_ptp_pass: 6362956
+time_between_wifi_read: 2032532
+time_between_wifi_write: 104311
+time_of_offset: 4570326
+time_of_delay: 171495
+single_ptp_pass: 6513583
+time_between_wifi_read: 1731827
+time_between_wifi_write: 198573
+time_of_offset: 4553620
+time_of_delay: 177609
+single_ptp_pass: 6286450
+time_between_wifi_read: 1948411
+time_between_wifi_write: 98191
+time_of_offset: 4538050
+time_of_delay: 131209
+single_ptp_pass: 6474318
+time_between_wifi_read: 1618710
+time_between_wifi_write: 105811
+time_of_offset: 4496055
+time_of_delay: 134539
+single_ptp_pass: 6095310
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 1420035503
+ Count: 1
+slave estimate: 1424516627
+ Count: 2
+slave estimate: 1429191960
+ Count: 3
+slave estimate: 1433695101
+ Count: 4
+slave estimate: 1438438457
+ Count: 5
+slave estimate: 1442977094
+ Count: 6
+slave estimate: 1447546015
+ Count: 7
+slave estimate: 1452091862
+ Count: 8
+slave estimate: 1456674948
+ Count: 9
+slave estimate: 1461168696
+ Count: 10
+slave estimate: 1465729333
+ Count: 11
+slave estimate: 1470288970
+ Count: 12
+slave estimate: 1474883387
+ Count: 13
+slave estimate: 1479343265
+ Count: 14
+slave estimate: 1483707485
+time_between_wifi_read: 232068
+time_between_wifi_write: 92438
+time_of_offset: 4477045
+time_of_delay: 162943
+single_ptp_pass: 4614095
+time_between_wifi_read: 1709606
+time_between_wifi_write: 118972
+time_of_offset: 4435405
+time_of_delay: 207373
+single_ptp_pass: 6187455
+time_between_wifi_read: 1942687
+time_between_wifi_write: 99039
+time_of_offset: 4723229
+time_of_delay: 135082
+single_ptp_pass: 6719234
+time_between_wifi_read: 1751340
+time_between_wifi_write: 144801
+time_of_offset: 4528898
+time_of_delay: 174731
+single_ptp_pass: 6322588
+time_between_wifi_read: 1859020
+time_between_wifi_write: 119893
+time_of_offset: 4780198
+time_of_delay: 141979
+single_ptp_pass: 6630788
+time_between_wifi_read: 1911919
+time_between_wifi_write: 106171
+time_of_offset: 4502989
+time_of_delay: 180447
+single_ptp_pass: 6302385
+time_between_wifi_read: 1914925
+time_between_wifi_write: 112810
+time_of_offset: 4636720
+time_of_delay: 138701
+single_ptp_pass: 6633427
+time_between_wifi_read: 1734116
+time_between_wifi_write: 180760
+time_of_offset: 4614088
+time_of_delay: 168727
+single_ptp_pass: 6459713
+time_between_wifi_read: 1999698
+time_between_wifi_write: 239184
+time_of_offset: 4675708
+time_of_delay: 223456
+single_ptp_pass: 6606790
+time_between_wifi_read: 1766744
+time_between_wifi_write: 120697
+time_of_offset: 4532089
+time_of_delay: 140623
+single_ptp_pass: 6429554
+time_between_wifi_read: 1934308
+time_between_wifi_write: 204572
+time_of_offset: 4664131
+time_of_delay: 188988
+single_ptp_pass: 6598052
+time_between_wifi_read: 1623327
+time_between_wifi_write: 270982
+time_of_offset: 4661988
+time_of_delay: 248160
+single_ptp_pass: 6270282
+time_between_wifi_read: 1726041
+time_between_wifi_write: 201019
+time_of_offset: 4673603
+time_of_delay: 184353
+single_ptp_pass: 6373292
+time_between_wifi_read: 1753183
+time_between_wifi_write: 105164
+time_of_offset: 4447545
+time_of_delay: 159270
+single_ptp_pass: 6134102
+time_between_wifi_read: 1926031
+time_between_wifi_write: 95693
+time_of_offset: 4417467
+time_of_delay: 130399
+single_ptp_pass: 6322275
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 1533447129
+ Count: 1
+slave estimate: 1538078715
+ Count: 2
+slave estimate: 1542475900
+ Count: 3
+slave estimate: 1547040240
+ Count: 4
+slave estimate: 1551490164
+ Count: 5
+slave estimate: 1556034401
+ Count: 6
+slave estimate: 1560608548
+ Count: 7
+slave estimate: 1565081169
+ Count: 8
+slave estimate: 1569438356
+ Count: 9
+slave estimate: 1573917780
+ Count: 10
+slave estimate: 1578478685
+ Count: 11
+slave estimate: 1583081412
+ Count: 12
+slave estimate: 1587597898
+ Count: 13
+slave estimate: 1592101836
+ Count: 14
+slave estimate: 1596623565
+time_between_wifi_read: 211668
+time_between_wifi_write: 121203
+time_of_offset: 4464748
+time_of_delay: 175301
+single_ptp_pass: 4775952
+time_between_wifi_read: 1965925
+time_between_wifi_write: 95535
+time_of_offset: 4642476
+time_of_delay: 135367
+single_ptp_pass: 6572633
+time_between_wifi_read: 1811882
+time_between_wifi_write: 126611
+time_of_offset: 4442010
+time_of_delay: 149597
+single_ptp_pass: 6413145
+time_between_wifi_read: 1921164
+time_between_wifi_write: 114587
+time_of_offset: 4625220
+time_of_delay: 142382
+single_ptp_pass: 6593581
+time_between_wifi_read: 1714027
+time_between_wifi_write: 118995
+time_of_offset: 4532917
+time_of_delay: 140507
+single_ptp_pass: 6306150
+time_between_wifi_read: 1858785
+time_between_wifi_write: 99640
+time_of_offset: 4581654
+time_of_delay: 130251
+single_ptp_pass: 6456353
+time_between_wifi_read: 1973560
+time_between_wifi_write: 130080
+time_of_offset: 4503842
+time_of_delay: 243515
+single_ptp_pass: 6263756
+time_between_wifi_read: 1973048
+time_between_wifi_write: 102362
+time_of_offset: 4487798
+time_of_delay: 140724
+single_ptp_pass: 6432118
+time_between_wifi_read: 1606789
+time_between_wifi_write: 95576
+time_of_offset: 4413124
+time_of_delay: 123405
+single_ptp_pass: 6009266
+time_between_wifi_read: 1946119
+time_between_wifi_write: 200211
+time_of_offset: 4579284
+time_of_delay: 182220
+single_ptp_pass: 6527184
+time_between_wifi_read: 1913674
+time_between_wifi_write: 196472
+time_of_offset: 4573481
+time_of_delay: 256645
+single_ptp_pass: 6375468
+time_between_wifi_read: 1955960
+time_between_wifi_write: 196811
+time_of_offset: 4687735
+time_of_delay: 182501
+single_ptp_pass: 6709101
+time_between_wifi_read: 1657574
+time_between_wifi_write: 98819
+time_of_offset: 4548202
+time_of_delay: 124268
+single_ptp_pass: 6219603
+time_between_wifi_read: 1962110
+time_between_wifi_write: 104851
+time_of_offset: 4461514
+time_of_delay: 201467
+single_ptp_pass: 6277674
+time_between_wifi_read: 1741150
+time_between_wifi_write: 190473
+time_of_offset: 4548328
+time_of_delay: 195004
+single_ptp_pass: 6243834
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 1646427472
+ Count: 1
+slave estimate: 1651263172
+ Count: 2
+slave estimate: 1656023557
+ Count: 3
+slave estimate: 1660590297
+ Count: 4
+slave estimate: 1664970819
+ Count: 5
+slave estimate: 1669435472
+ Count: 6
+slave estimate: 1673804593
+ Count: 7
+slave estimate: 1678249840
+ Count: 8
+slave estimate: 1682685423
+ Count: 9
+slave estimate: 1687358231
+ Count: 10
+slave estimate: 1691750577
+ Count: 11
+slave estimate: 1696252613
+ Count: 12
+slave estimate: 1700826699
+ Count: 13
+slave estimate: 1705496227
+ Count: 14
+slave estimate: 1710140350
+time_between_wifi_read: 166974
+time_between_wifi_write: 261048
+time_of_offset: 4633444
+time_of_delay: 217287
+single_ptp_pass: 4879286
+time_between_wifi_read: 1822607
+time_between_wifi_write: 415411
+time_of_offset: 5030928
+time_of_delay: 278325
+single_ptp_pass: 7004614
+time_between_wifi_read: 2045915
+time_between_wifi_write: 147321
+time_of_offset: 4788948
+time_of_delay: 206846
+single_ptp_pass: 6895584
+time_between_wifi_read: 1666778
+time_between_wifi_write: 98000
+time_of_offset: 4642163
+time_of_delay: 126964
+single_ptp_pass: 6290562
+time_between_wifi_read: 2010800
+time_between_wifi_write: 110051
+time_of_offset: 4396688
+time_of_delay: 159200
+single_ptp_pass: 6340232
+time_between_wifi_read: 1804501
+time_between_wifi_write: 128525
+time_of_offset: 4510953
+time_of_delay: 142705
+single_ptp_pass: 6319649
+time_between_wifi_read: 1784884
+time_between_wifi_write: 112703
+time_of_offset: 4421205
+time_of_delay: 134475
+single_ptp_pass: 6235753
+time_between_wifi_read: 1710106
+time_between_wifi_write: 108599
+time_of_offset: 4444833
+time_of_delay: 138620
+single_ptp_pass: 6131411
+time_between_wifi_read: 1942809
+time_between_wifi_write: 284092
+time_of_offset: 4583480
+time_of_delay: 221564
+single_ptp_pass: 6687119
+time_between_wifi_read: 1744272
+time_between_wifi_write: 103656
+time_of_offset: 4691383
+time_of_delay: 166039
+single_ptp_pass: 6356463
+time_between_wifi_read: 1946548
+time_between_wifi_write: 94893
+time_of_offset: 4440233
+time_of_delay: 128420
+single_ptp_pass: 6466964
+time_between_wifi_read: 1775720
+time_between_wifi_write: 150446
+time_of_offset: 4534684
+time_of_delay: 151529
+single_ptp_pass: 6471526
+time_between_wifi_read: 1959048
+time_between_wifi_write: 104747
+time_of_offset: 4608065
+time_of_delay: 132579
+single_ptp_pass: 6741058
+time_between_wifi_read: 1558493
+time_between_wifi_write: 374997
+time_of_offset: 4815539
+time_of_delay: 225404
+single_ptp_pass: 6377059
+time_between_wifi_read: 1795559
+time_between_wifi_write: 206894
+time_of_offset: 4734369
+time_of_delay: 186391
+single_ptp_pass: 6510237
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 1760144087
+ Count: 1
+slave estimate: 1764588983
+ Count: 2
+slave estimate: 1769098957
+ Count: 3
+slave estimate: 1773683019
+ Count: 4
+slave estimate: 1778195873
+ Count: 5
+slave estimate: 1782644446
+ Count: 6
+slave estimate: 1787077939
+ Count: 7
+slave estimate: 1791615573
+ Count: 8
+slave estimate: 1796203954
+ Count: 9
+slave estimate: 1800684543
+ Count: 10
+slave estimate: 1805342904
+ Count: 11
+slave estimate: 1810004001
+ Count: 12
+slave estimate: 1814811243
+ Count: 13
+slave estimate: 1819358176
+ Count: 14
+slave estimate: 1823953534
+time_between_wifi_read: 256443
+time_between_wifi_write: 111661
+time_of_offset: 4553689
+time_of_delay: 195767
+single_ptp_pass: 4690916
+time_between_wifi_read: 1779874
+time_between_wifi_write: 99694
+time_of_offset: 4478059
+time_of_delay: 130541
+single_ptp_pass: 6240289
+time_between_wifi_read: 2076358
+time_between_wifi_write: 124759
+time_of_offset: 4393294
+time_of_delay: 293329
+single_ptp_pass: 6174611
+time_between_wifi_read: 1993646
+time_between_wifi_write: 103647
+time_of_offset: 4570121
+time_of_delay: 182795
+single_ptp_pass: 6558642
+time_between_wifi_read: 1744549
+time_between_wifi_write: 95037
+time_of_offset: 4553419
+time_of_delay: 121712
+single_ptp_pass: 6368562
+time_between_wifi_read: 1959559
+time_between_wifi_write: 112064
+time_of_offset: 4475116
+time_of_delay: 140377
+single_ptp_pass: 6429838
+time_between_wifi_read: 1687557
+time_between_wifi_write: 108855
+time_of_offset: 4410284
+time_of_delay: 183727
+single_ptp_pass: 5975590
+time_between_wifi_read: 2099589
+time_between_wifi_write: 231444
+time_of_offset: 4554216
+time_of_delay: 275274
+single_ptp_pass: 6479017
+time_between_wifi_read: 1774088
+time_between_wifi_write: 94022
+time_of_offset: 4544912
+time_of_delay: 168464
+single_ptp_pass: 6219281
+time_between_wifi_read: 1964665
+time_between_wifi_write: 292373
+time_of_offset: 4608435
+time_of_delay: 232767
+single_ptp_pass: 6600799
+time_between_wifi_read: 1649614
+time_between_wifi_write: 386889
+time_of_offset: 4856020
+time_of_delay: 271935
+single_ptp_pass: 6618948
+time_between_wifi_read: 2030013
+time_between_wifi_write: 101868
+time_of_offset: 4657600
+time_of_delay: 180484
+single_ptp_pass: 6649952
+time_between_wifi_read: 1947452
+time_between_wifi_write: 209167
+time_of_offset: 4716525
+time_of_delay: 195873
+single_ptp_pass: 6697904
+time_between_wifi_read: 1927941
+time_between_wifi_write: 112559
+time_of_offset: 4573575
+time_of_delay: 139557
+single_ptp_pass: 6662134
+time_between_wifi_read: 1475589
+time_between_wifi_write: 107044
+time_of_offset: 4597803
+time_of_delay: 172880
+single_ptp_pass: 6135527
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 1873751910
+ Count: 1
+slave estimate: 1878172757
+ Count: 2
+slave estimate: 1882774372
+ Count: 3
+slave estimate: 1887335008
+ Count: 4
+slave estimate: 1891950689
+ Count: 5
+slave estimate: 1896560994
+ Count: 6
+slave estimate: 1900951920
+ Count: 7
+slave estimate: 1905441285
+ Count: 8
+slave estimate: 1909958404
+ Count: 9
+slave estimate: 1914582247
+ Count: 10
+slave estimate: 1919034829
+ Count: 11
+slave estimate: 1923525447
+ Count: 12
+slave estimate: 1927954176
+ Count: 13
+slave estimate: 1932542333
+ Count: 14
+slave estimate: 1937026387
+time_between_wifi_read: 258927
+time_between_wifi_write: 95520
+time_of_offset: 4580429
+time_of_delay: 177527
+single_ptp_pass: 4726241
+time_between_wifi_read: 1634256
+time_between_wifi_write: 121542
+time_of_offset: 4468251
+time_of_delay: 137860
+single_ptp_pass: 6107043
+time_between_wifi_read: 1964319
+time_between_wifi_write: 143955
+time_of_offset: 4638894
+time_of_delay: 194638
+single_ptp_pass: 6564954
+time_between_wifi_read: 1642398
+time_between_wifi_write: 100783
+time_of_offset: 4576536
+time_of_delay: 132454
+single_ptp_pass: 6293048
+time_between_wifi_read: 2291623
+time_between_wifi_write: 112595
+time_of_offset: 4450328
+time_of_delay: 318837
+single_ptp_pass: 6366461
+time_between_wifi_read: 1637391
+time_between_wifi_write: 192536
+time_of_offset: 4682571
+time_of_delay: 172750
+single_ptp_pass: 6313876
+time_between_wifi_read: 1933078
+time_between_wifi_write: 97511
+time_of_offset: 4443945
+time_of_delay: 127289
+single_ptp_pass: 6353467
+time_between_wifi_read: 1821553
+time_between_wifi_write: 134838
+time_of_offset: 4535574
+time_of_delay: 154799
+single_ptp_pass: 6329465
+time_between_wifi_read: 2032930
+time_between_wifi_write: 170485
+time_of_offset: 4538564
+time_of_delay: 208060
+single_ptp_pass: 6618047
+time_between_wifi_read: 1810583
+time_between_wifi_write: 115386
+time_of_offset: 4656710
+time_of_delay: 147844
+single_ptp_pass: 6445060
+time_between_wifi_read: 1951834
+time_between_wifi_write: 102483
+time_of_offset: 4429378
+time_of_delay: 178042
+single_ptp_pass: 6265021
+time_between_wifi_read: 1870852
+time_between_wifi_write: 106943
+time_of_offset: 4490211
+time_of_delay: 171242
+single_ptp_pass: 6269232
+time_between_wifi_read: 1944870
+time_between_wifi_write: 134017
+time_of_offset: 4475182
+time_of_delay: 150348
+single_ptp_pass: 6618197
+time_between_wifi_read: 1687615
+time_between_wifi_write: 104699
+time_of_offset: 4640786
+time_of_delay: 130073
+single_ptp_pass: 6476712
+time_between_wifi_read: 1942433
+time_between_wifi_write: 94353
+time_of_offset: 4533511
+time_of_delay: 127205
+single_ptp_pass: 6471720
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 1986791335
+ Count: 1
+slave estimate: 1991292530
+ Count: 2
+slave estimate: 1995856265
+ Count: 3
+slave estimate: 2000484848
+ Count: 4
+slave estimate: 2005090236
+ Count: 5
+slave estimate: 2009521323
+ Count: 6
+slave estimate: 2013955520
+ Count: 7
+slave estimate: 2018448000
+ Count: 8
+slave estimate: 2022980946
+ Count: 9
+slave estimate: 2027394228
+ Count: 10
+slave estimate: 2031852889
+ Count: 11
+slave estimate: 2036428978
+ Count: 12
+slave estimate: 2040884267
+ Count: 13
+slave estimate: 2045398233
+ Count: 14
+slave estimate: 2050021332
+time_between_wifi_read: 270604
+time_between_wifi_write: 96988
+time_of_offset: 4432332
+time_of_delay: 193708
+single_ptp_pass: 4581683
+time_between_wifi_read: 1911119
+time_between_wifi_write: 112543
+time_of_offset: 4512599
+time_of_delay: 149728
+single_ptp_pass: 6552156
+time_between_wifi_read: 1796703
+time_between_wifi_write: 112104
+time_of_offset: 4533154
+time_of_delay: 181983
+single_ptp_pass: 6341575
+time_between_wifi_read: 1918031
+time_between_wifi_write: 377554
+time_of_offset: 4825458
+time_of_delay: 271033
+single_ptp_pass: 6805535
+time_between_wifi_read: 1789867
+time_between_wifi_write: 128670
+time_of_offset: 4669656
+time_of_delay: 141513
+single_ptp_pass: 6484593
+time_between_wifi_read: 1978794
+time_between_wifi_write: 105924
+time_of_offset: 4452522
+time_of_delay: 140582
+single_ptp_pass: 6421159
+time_between_wifi_read: 1588066
+time_between_wifi_write: 172470
+time_of_offset: 4504883
+time_of_delay: 164302
+single_ptp_pass: 6094758
+time_between_wifi_read: 2031710
+time_between_wifi_write: 125945
+time_of_offset: 4509263
+time_of_delay: 189451
+single_ptp_pass: 6504813
+time_between_wifi_read: 1707741
+time_between_wifi_write: 97965
+time_of_offset: 4605307
+time_of_delay: 126853
+single_ptp_pass: 6291321
+time_between_wifi_read: 1870490
+time_between_wifi_write: 134623
+time_of_offset: 4459607
+time_of_delay: 147627
+single_ptp_pass: 6311379
+time_between_wifi_read: 1845121
+time_between_wifi_write: 104861
+time_of_offset: 4433059
+time_of_delay: 179293
+single_ptp_pass: 6353929
+time_between_wifi_read: 1964269
+time_between_wifi_write: 93665
+time_of_offset: 4612080
+time_of_delay: 128603
+single_ptp_pass: 6611405
+time_between_wifi_read: 1797921
+time_between_wifi_write: 118889
+time_of_offset: 4465402
+time_of_delay: 142747
+single_ptp_pass: 6328629
+time_between_wifi_read: 1862332
+time_between_wifi_write: 205312
+time_of_offset: 4598600
+time_of_delay: 187558
+single_ptp_pass: 6551634
+time_between_wifi_read: 1813925
+time_between_wifi_write: 117233
+time_of_offset: 4651457
+time_of_delay: 135275
+single_ptp_pass: 6472653
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 2099571729
+ Count: 1
+slave estimate: 2104066430
+ Count: 2
+slave estimate: 2108464453
+ Count: 3
+slave estimate: 2113051554
+ Count: 4
+slave estimate: 2117607295
+ Count: 5
+slave estimate: 2122108382
+ Count: 6
+slave estimate: 2126524059
+ Count: 7
+slave estimate: 2131071759
+ Count: 8
+slave estimate: 2135695114
+ Count: 9
+slave estimate: 2140157632
+ Count: 10
+slave estimate: 2144589645
+ Count: 11
+slave estimate: 2149041724
+ Count: 12
+slave estimate: 2153559039
+ Count: 13
+slave estimate: 2158195600
+ Count: 14
+slave estimate: 2162785306
+time_between_wifi_read: 238193
+time_between_wifi_write: 117844
+time_of_offset: 4391071
+time_of_delay: 180472
+single_ptp_pass: 4568515
+time_between_wifi_read: 1560244
+time_between_wifi_write: 101135
+time_of_offset: 4464357
+time_of_delay: 196908
+single_ptp_pass: 5870516
+time_between_wifi_read: 1867611
+time_between_wifi_write: 100785
+time_of_offset: 4444455
+time_of_delay: 133474
+single_ptp_pass: 6346959
+time_between_wifi_read: 1781732
+time_between_wifi_write: 138232
+time_of_offset: 4495713
+time_of_delay: 278977
+single_ptp_pass: 6013512
+time_between_wifi_read: 1954064
+time_between_wifi_write: 149646
+time_of_offset: 4639976
+time_of_delay: 163727
+single_ptp_pass: 6576066
+time_between_wifi_read: 1664862
+time_between_wifi_write: 227340
+time_of_offset: 4590497
+time_of_delay: 188865
+single_ptp_pass: 6242252
+time_between_wifi_read: 1964603
+time_between_wifi_write: 112830
+time_of_offset: 4449568
+time_of_delay: 142737
+single_ptp_pass: 6383904
+time_between_wifi_read: 1951443
+time_between_wifi_write: 113538
+time_of_offset: 4401374
+time_of_delay: 314778
+single_ptp_pass: 5975034
+time_between_wifi_read: 2067292
+time_between_wifi_write: 160211
+time_of_offset: 4640694
+time_of_delay: 227438
+single_ptp_pass: 6592980
+time_between_wifi_read: 1793803
+time_between_wifi_write: 93567
+time_of_offset: 4518889
+time_of_delay: 124393
+single_ptp_pass: 6299848
+time_between_wifi_read: 1858457
+time_between_wifi_write: 268070
+time_of_offset: 4541626
+time_of_delay: 216936
+single_ptp_pass: 6373775
+time_between_wifi_read: 1715208
+time_between_wifi_write: 117878
+time_of_offset: 4521564
+time_of_delay: 135950
+single_ptp_pass: 6276394
+time_between_wifi_read: 1862794
+time_between_wifi_write: 219297
+time_of_offset: 4620344
+time_of_delay: 195776
+single_ptp_pass: 6502278
+time_between_wifi_read: 1697136
+time_between_wifi_write: 97618
+time_of_offset: 4690535
+time_of_delay: 124631
+single_ptp_pass: 6467560
+time_between_wifi_read: 1986080
+time_between_wifi_write: 116319
+time_of_offset: 4602399
+time_of_delay: 167643
+single_ptp_pass: 6510333
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 2212555533
+ Count: 1
+slave estimate: 2217185025
+ Count: 2
+slave estimate: 2221628437
+ Count: 3
+slave estimate: 2226200444
+ Count: 4
+slave estimate: 2230632864
+ Count: 5
+slave estimate: 2235181101
+ Count: 6
+slave estimate: 2239652696
+ Count: 7
+slave estimate: 2244253737
+ Count: 8
+slave estimate: 2248915239
+ Count: 9
+slave estimate: 2253369966
+ Count: 10
+slave estimate: 2257955171
+ Count: 11
+slave estimate: 2262439874
+ Count: 12
+slave estimate: 2267093892
+ Count: 13
+slave estimate: 2271536751
+ Count: 14
+slave estimate: 2276086224
+time_between_wifi_read: 136659
+time_between_wifi_write: 94583
+time_of_offset: 4419177
+time_of_delay: 127583
+single_ptp_pass: 4586576
+time_between_wifi_read: 1948580
+time_between_wifi_write: 108233
+time_of_offset: 4687277
+time_of_delay: 135514
+single_ptp_pass: 6613978
+time_between_wifi_read: 1747375
+time_between_wifi_write: 190759
+time_of_offset: 4429604
+time_of_delay: 195608
+single_ptp_pass: 6113409
+time_between_wifi_read: 2029811
+time_between_wifi_write: 98434
+time_of_offset: 4552579
+time_of_delay: 176293
+single_ptp_pass: 6524150
+time_between_wifi_read: 1602668
+time_between_wifi_write: 103317
+time_of_offset: 4488253
+time_of_delay: 133331
+single_ptp_pass: 6069483
+time_between_wifi_read: 2002715
+time_between_wifi_write: 113266
+time_of_offset: 4561684
+time_of_delay: 167380
+single_ptp_pass: 6516161
+time_between_wifi_read: 1656324
+time_between_wifi_write: 111708
+time_of_offset: 4466107
+time_of_delay: 178828
+single_ptp_pass: 6023055
+time_between_wifi_read: 1935391
+time_between_wifi_write: 274082
+time_of_offset: 4733128
+time_of_delay: 216562
+single_ptp_pass: 6824982
+time_between_wifi_read: 1744461
+time_between_wifi_write: 114308
+time_of_offset: 4680341
+time_of_delay: 173037
+single_ptp_pass: 6345017
+time_between_wifi_read: 2003755
+time_between_wifi_write: 99291
+time_of_offset: 4469759
+time_of_delay: 149890
+single_ptp_pass: 6509501
+time_between_wifi_read: 1728832
+time_between_wifi_write: 98583
+time_of_offset: 4640299
+time_of_delay: 123123
+single_ptp_pass: 6375945
+time_between_wifi_read: 1778183
+time_between_wifi_write: 293989
+time_of_offset: 4601214
+time_of_delay: 256652
+single_ptp_pass: 6372544
+time_between_wifi_read: 1597802
+time_between_wifi_write: 110534
+time_of_offset: 4657170
+time_of_delay: 139208
+single_ptp_pass: 6226658
+time_between_wifi_read: 2070357
+time_between_wifi_write: 189983
+time_of_offset: 4479437
+time_of_delay: 241061
+single_ptp_pass: 6421598
+time_between_wifi_read: 1842556
+time_between_wifi_write: 143660
+time_of_offset: 4572027
+time_of_delay: 174219
+single_ptp_pass: 6367383
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 2325771269
+ Count: 1
+slave estimate: 2330226292
+ Count: 2
+slave estimate: 2334605186
+ Count: 3
+slave estimate: 2339003329
+ Count: 4
+slave estimate: 2343447930
+ Count: 5
+slave estimate: 2348020160
+ Count: 6
+slave estimate: 2352426067
+ Count: 7
+slave estimate: 2356945763
+ Count: 8
+slave estimate: 2361493668
+ Count: 9
+slave estimate: 2366053752
+ Count: 10
+slave estimate: 2370412359
+ Count: 11
+slave estimate: 2374852511
+ Count: 12
+slave estimate: 2379421238
+ Count: 13
+slave estimate: 2384178999
+ Count: 14
+slave estimate: 2388653277
+time_between_wifi_read: 185469
+time_between_wifi_write: 128197
+time_of_offset: 4466011
+time_of_delay: 149749
+single_ptp_pass: 4615912
+time_between_wifi_read: 1790413
+time_between_wifi_write: 98459
+time_of_offset: 4440186
+time_of_delay: 149006
+single_ptp_pass: 6171056
+time_between_wifi_read: 1968356
+time_between_wifi_write: 112873
+time_of_offset: 4412552
+time_of_delay: 140293
+single_ptp_pass: 6393853
+time_between_wifi_read: 1633369
+time_between_wifi_write: 101099
+time_of_offset: 4445765
+time_of_delay: 127610
+single_ptp_pass: 6069150
+time_between_wifi_read: 1967432
+time_between_wifi_write: 96492
+time_of_offset: 4494508
+time_of_delay: 140276
+single_ptp_pass: 6425364
+time_between_wifi_read: 1667848
+time_between_wifi_write: 115593
+time_of_offset: 4595305
+time_of_delay: 141886
+single_ptp_pass: 6237259
+time_between_wifi_read: 1975245
+time_between_wifi_write: 176273
+time_of_offset: 4459178
+time_of_delay: 176465
+single_ptp_pass: 6481747
+time_between_wifi_read: 1736679
+time_between_wifi_write: 118316
+time_of_offset: 4550350
+time_of_delay: 141407
+single_ptp_pass: 6382591
+time_between_wifi_read: 2115971
+time_between_wifi_write: 99161
+time_of_offset: 4523234
+time_of_delay: 220685
+single_ptp_pass: 6436701
+time_between_wifi_read: 1817170
+time_between_wifi_write: 107612
+time_of_offset: 4585594
+time_of_delay: 138109
+single_ptp_pass: 6381920
+time_between_wifi_read: 1942688
+time_between_wifi_write: 134016
+time_of_offset: 4430785
+time_of_delay: 147595
+single_ptp_pass: 6374673
+time_between_wifi_read: 1672691
+time_between_wifi_write: 101424
+time_of_offset: 4455260
+time_of_delay: 185251
+single_ptp_pass: 6070118
+time_between_wifi_read: 1821285
+time_between_wifi_write: 97461
+time_of_offset: 4568315
+time_of_delay: 149020
+single_ptp_pass: 6413337
+time_between_wifi_read: 1733449
+time_between_wifi_write: 191121
+time_of_offset: 4817050
+time_of_delay: 178522
+single_ptp_pass: 6591766
+time_between_wifi_read: 2002014
+time_between_wifi_write: 103513
+time_of_offset: 4499686
+time_of_delay: 157578
+single_ptp_pass: 6444450
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 2438677342
+ Count: 1
+slave estimate: 2443253640
+ Count: 2
+slave estimate: 2447798741
+ Count: 3
+slave estimate: 2452191839
+ Count: 4
+slave estimate: 2456647954
+ Count: 5
+slave estimate: 2461237057
+ Count: 6
+slave estimate: 2465605528
+ Count: 7
+slave estimate: 2470075028
+ Count: 8
+slave estimate: 2474560790
+ Count: 9
+slave estimate: 2478988971
+ Count: 10
+slave estimate: 2483557180
+ Count: 11
+slave estimate: 2487996135
+ Count: 12
+slave estimate: 2492380793
+ Count: 13
+slave estimate: 2496804242
+ Count: 14
+slave estimate: 2501424841
+time_between_wifi_read: 227429
+time_between_wifi_write: 105555
+time_of_offset: 4437130
+time_of_delay: 173608
+single_ptp_pass: 4640312
+time_between_wifi_read: 2132972
+time_between_wifi_write: 117801
+time_of_offset: 4524494
+time_of_delay: 232680
+single_ptp_pass: 6550253
+time_between_wifi_read: 1787539
+time_between_wifi_write: 98418
+time_of_offset: 4583357
+time_of_delay: 127230
+single_ptp_pass: 6406155
+time_between_wifi_read: 1956635
+time_between_wifi_write: 108508
+time_of_offset: 4441373
+time_of_delay: 137975
+single_ptp_pass: 6370684
+time_between_wifi_read: 1699851
+time_between_wifi_write: 113812
+time_of_offset: 4483529
+time_of_delay: 149726
+single_ptp_pass: 6154977
+time_between_wifi_read: 1995606
+time_between_wifi_write: 100447
+time_of_offset: 4582544
+time_of_delay: 148288
+single_ptp_pass: 6529060
+time_between_wifi_read: 1552528
+time_between_wifi_write: 98878
+time_of_offset: 4403958
+time_of_delay: 127642
+single_ptp_pass: 5960670
+time_between_wifi_read: 2117706
+time_between_wifi_write: 112743
+time_of_offset: 4437525
+time_of_delay: 208318
+single_ptp_pass: 6414813
+time_between_wifi_read: 1829636
+time_between_wifi_write: 123992
+time_of_offset: 4523647
+time_of_delay: 131708
+single_ptp_pass: 6394972
+time_between_wifi_read: 1923963
+time_between_wifi_write: 95497
+time_of_offset: 4454023
+time_of_delay: 128290
+single_ptp_pass: 6356361
+time_between_wifi_read: 1593517
+time_between_wifi_write: 111589
+time_of_offset: 4597188
+time_of_delay: 141229
+single_ptp_pass: 6211394
+time_between_wifi_read: 1989945
+time_between_wifi_write: 107503
+time_of_offset: 4449156
+time_of_delay: 144604
+single_ptp_pass: 6403988
+time_between_wifi_read: 1799791
+time_between_wifi_write: 116700
+time_of_offset: 4438110
+time_of_delay: 134386
+single_ptp_pass: 6239059
+time_between_wifi_read: 1962249
+time_between_wifi_write: 217802
+time_of_offset: 4524650
+time_of_delay: 189487
+single_ptp_pass: 6534396
+time_between_wifi_read: 1490312
+time_between_wifi_write: 101650
+time_of_offset: 4665531
+time_of_delay: 128692
+single_ptp_pass: 6153478
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 2551002152
+ Count: 1
+slave estimate: 2555460518
+ Count: 2
+slave estimate: 2560046628
+ Count: 3
+slave estimate: 2564631648
+ Count: 4
+slave estimate: 2569083085
+ Count: 5
+slave estimate: 2573751236
+ Count: 6
+slave estimate: 2578440878
+ Count: 7
+slave estimate: 2582869043
+ Count: 8
+slave estimate: 2587346859
+ Count: 9
+slave estimate: 2591817413
+ Count: 10
+slave estimate: 2596436898
+ Count: 11
+slave estimate: 2600886090
+ Count: 12
+slave estimate: 2605582747
+ Count: 13
+slave estimate: 2610013310
+ Count: 14
+slave estimate: 2614712607
+time_between_wifi_read: 185700
+time_between_wifi_write: 92592
+time_of_offset: 4424048
+time_of_delay: 135046
+single_ptp_pass: 4571671
+time_between_wifi_read: 1863472
+time_between_wifi_write: 114458
+time_of_offset: 4423907
+time_of_delay: 200619
+single_ptp_pass: 6140007
+time_between_wifi_read: 1964426
+time_between_wifi_write: 100984
+time_of_offset: 4645038
+time_of_delay: 145629
+single_ptp_pass: 6671097
+time_between_wifi_read: 1621888
+time_between_wifi_write: 246344
+time_of_offset: 4693030
+time_of_delay: 198154
+single_ptp_pass: 6304766
+time_between_wifi_read: 1976525
+time_between_wifi_write: 115237
+time_of_offset: 4475677
+time_of_delay: 142202
+single_ptp_pass: 6493370
+time_between_wifi_read: 1879823
+time_between_wifi_write: 272128
+time_of_offset: 4782066
+time_of_delay: 250451
+single_ptp_pass: 6756274
+time_between_wifi_read: 1859493
+time_between_wifi_write: 116188
+time_of_offset: 4740264
+time_of_delay: 140336
+single_ptp_pass: 6592539
+time_between_wifi_read: 1808248
+time_between_wifi_write: 97786
+time_of_offset: 4472134
+time_of_delay: 123670
+single_ptp_pass: 6278639
+time_between_wifi_read: 1959009
+time_between_wifi_write: 201442
+time_of_offset: 4576149
+time_of_delay: 184224
+single_ptp_pass: 6505190
+time_between_wifi_read: 1772231
+time_between_wifi_write: 141366
+time_of_offset: 4522376
+time_of_delay: 152749
+single_ptp_pass: 6473404
+time_between_wifi_read: 2027173
+time_between_wifi_write: 102332
+time_of_offset: 4611020
+time_of_delay: 180781
+single_ptp_pass: 6530643
+time_between_wifi_read: 1914511
+time_between_wifi_write: 102487
+time_of_offset: 4467692
+time_of_delay: 182788
+single_ptp_pass: 6399370
+time_between_wifi_read: 1979530
+time_between_wifi_write: 117858
+time_of_offset: 4701115
+time_of_delay: 142811
+single_ptp_pass: 6657353
+time_between_wifi_read: 1923910
+time_between_wifi_write: 103816
+time_of_offset: 4387929
+time_of_delay: 178684
+single_ptp_pass: 6225400
+time_between_wifi_read: 2009685
+time_between_wifi_write: 314753
+time_of_offset: 4786581
+time_of_delay: 241315
+single_ptp_pass: 6760812
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 2664648911
+ Count: 1
+slave estimate: 2669109082
+ Count: 2
+slave estimate: 2673763798
+ Count: 3
+slave estimate: 2678134356
+ Count: 4
+slave estimate: 2682566888
+ Count: 5
+slave estimate: 2686905254
+ Count: 6
+slave estimate: 2691379721
+ Count: 7
+slave estimate: 2695882896
+ Count: 8
+slave estimate: 2700271675
+ Count: 9
+slave estimate: 2704716798
+ Count: 10
+slave estimate: 2709151052
+ Count: 11
+slave estimate: 2713645098
+ Count: 12
+slave estimate: 2718146421
+ Count: 13
+slave estimate: 2722565767
+ Count: 14
+slave estimate: 2727010130
+time_between_wifi_read: 140740
+time_between_wifi_write: 113666
+time_of_offset: 4587362
+time_of_delay: 140467
+single_ptp_pass: 4718545
+time_between_wifi_read: 2123420
+time_between_wifi_write: 98721
+time_of_offset: 4409290
+time_of_delay: 211143
+single_ptp_pass: 6613986
+time_between_wifi_read: 1677331
+time_between_wifi_write: 96498
+time_of_offset: 4756763
+time_of_delay: 132826
+single_ptp_pass: 6418946
+time_between_wifi_read: 1940402
+time_between_wifi_write: 144527
+time_of_offset: 4441834
+time_of_delay: 154321
+single_ptp_pass: 6404809
+time_between_wifi_read: 1800923
+time_between_wifi_write: 98725
+time_of_offset: 4479093
+time_of_delay: 127049
+single_ptp_pass: 6276820
+time_between_wifi_read: 1952970
+time_between_wifi_write: 93851
+time_of_offset: 4380115
+time_of_delay: 130305
+single_ptp_pass: 6301205
+time_between_wifi_read: 1843093
+time_between_wifi_write: 209287
+time_of_offset: 4540523
+time_of_delay: 189079
+single_ptp_pass: 6439018
+time_between_wifi_read: 1967154
+time_between_wifi_write: 128659
+time_of_offset: 4551841
+time_of_delay: 147832
+single_ptp_pass: 6499653
+time_between_wifi_read: 1776763
+time_between_wifi_write: 95028
+time_of_offset: 4425477
+time_of_delay: 124521
+single_ptp_pass: 6186095
+time_between_wifi_read: 1957510
+time_between_wifi_write: 267794
+time_of_offset: 4557579
+time_of_delay: 215014
+single_ptp_pass: 6497952
+time_between_wifi_read: 1789959
+time_between_wifi_write: 124194
+time_of_offset: 4495769
+time_of_delay: 137636
+single_ptp_pass: 6306148
+time_between_wifi_read: 2089292
+time_between_wifi_write: 122000
+time_of_offset: 4495321
+time_of_delay: 212916
+single_ptp_pass: 6436607
+time_between_wifi_read: 1767440
+time_between_wifi_write: 160542
+time_of_offset: 4577136
+time_of_delay: 154300
+single_ptp_pass: 6332466
+time_between_wifi_read: 1931629
+time_between_wifi_write: 110067
+time_of_offset: 4456405
+time_of_delay: 144502
+single_ptp_pass: 6360743
+time_between_wifi_read: 1735910
+time_between_wifi_write: 211694
+time_of_offset: 4521897
+time_of_delay: 186717
+single_ptp_pass: 6250210
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 2776672016
+ Count: 1
+slave estimate: 2781342406
+ Count: 2
+slave estimate: 2785791661
+ Count: 3
+slave estimate: 2790165371
+ Count: 4
+slave estimate: 2794687905
+ Count: 5
+slave estimate: 2799244036
+ Count: 6
+slave estimate: 2803796922
+ Count: 7
+slave estimate: 2808459349
+ Count: 8
+slave estimate: 2812950624
+ Count: 9
+slave estimate: 2817358328
+ Count: 10
+slave estimate: 2821790458
+ Count: 11
+slave estimate: 2826195657
+ Count: 12
+slave estimate: 2830735855
+ Count: 13
+slave estimate: 2835532113
+ Count: 14
+slave estimate: 2840045798
+time_between_wifi_read: 344612
+time_between_wifi_write: 111091
+time_of_offset: 4448334
+time_of_delay: 221200
+single_ptp_pass: 4713518
+time_between_wifi_read: 1782348
+time_between_wifi_write: 147167
+time_of_offset: 4736819
+time_of_delay: 150706
+single_ptp_pass: 6513520
+time_between_wifi_read: 1892119
+time_between_wifi_write: 92595
+time_of_offset: 4488618
+time_of_delay: 134080
+single_ptp_pass: 6347699
+time_between_wifi_read: 1836490
+time_between_wifi_write: 118218
+time_of_offset: 4410573
+time_of_delay: 139883
+single_ptp_pass: 6296142
+time_between_wifi_read: 2009477
+time_between_wifi_write: 105590
+time_of_offset: 4543762
+time_of_delay: 167093
+single_ptp_pass: 6566890
+time_between_wifi_read: 1826439
+time_between_wifi_write: 121662
+time_of_offset: 4604423
+time_of_delay: 139863
+single_ptp_pass: 6435240
+time_between_wifi_read: 1953997
+time_between_wifi_write: 254047
+time_of_offset: 4588461
+time_of_delay: 133152
+single_ptp_pass: 6543238
+time_between_wifi_read: 1695898
+time_between_wifi_write: 281354
+time_of_offset: 4764124
+time_of_delay: 219776
+single_ptp_pass: 6440290
+time_between_wifi_read: 1931273
+time_between_wifi_write: 173553
+time_of_offset: 4545967
+time_of_delay: 170293
+single_ptp_pass: 6470475
+time_between_wifi_read: 1751008
+time_between_wifi_write: 103671
+time_of_offset: 4475128
+time_of_delay: 127237
+single_ptp_pass: 6280668
+time_between_wifi_read: 1962092
+time_between_wifi_write: 96894
+time_of_offset: 4456373
+time_of_delay: 129121
+single_ptp_pass: 6396630
+time_between_wifi_read: 1873232
+time_between_wifi_write: 116877
+time_of_offset: 4433697
+time_of_delay: 169536
+single_ptp_pass: 6226391
+time_between_wifi_read: 2038145
+time_between_wifi_write: 100416
+time_of_offset: 4517360
+time_of_delay: 162369
+single_ptp_pass: 6822666
+time_between_wifi_read: 1907527
+time_between_wifi_write: 94197
+time_of_offset: 4791893
+time_of_delay: 176811
+single_ptp_pass: 6586581
+time_between_wifi_read: 1842629
+time_between_wifi_write: 192720
+time_of_offset: 4574212
+time_of_delay: 184687
+single_ptp_pass: 6449401
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 2890102391
+ Count: 1
+slave estimate: 2894620042
+ Count: 2
+slave estimate: 2899006907
+ Count: 3
+slave estimate: 2903469995
+ Count: 4
+slave estimate: 2907981868
+ Count: 5
+slave estimate: 2912488273
+ Count: 6
+slave estimate: 2916920154
+ Count: 7
+slave estimate: 2921490789
+ Count: 8
+slave estimate: 2925997023
+ Count: 9
+slave estimate: 2930643191
+ Count: 10
+slave estimate: 2935185669
+ Count: 11
+slave estimate: 2939635437
+ Count: 12
+slave estimate: 2944085277
+ Count: 13
+slave estimate: 2948661305
+ Count: 14
+slave estimate: 2953393210
+time_between_wifi_read: 281856
+time_between_wifi_write: 96576
+time_of_offset: 4537890
+time_of_delay: 206161
+single_ptp_pass: 4649521
+time_between_wifi_read: 1965949
+time_between_wifi_write: 106753
+time_of_offset: 4569941
+time_of_delay: 137187
+single_ptp_pass: 6510645
+time_between_wifi_read: 1725455
+time_between_wifi_write: 114683
+time_of_offset: 4448962
+time_of_delay: 133718
+single_ptp_pass: 6179487
+time_between_wifi_read: 2106784
+time_between_wifi_write: 127630
+time_of_offset: 4435565
+time_of_delay: 211205
+single_ptp_pass: 6379118
+time_between_wifi_read: 1712846
+time_between_wifi_write: 95536
+time_of_offset: 4589169
+time_of_delay: 123249
+single_ptp_pass: 6408231
+time_between_wifi_read: 1942363
+time_between_wifi_write: 114695
+time_of_offset: 4538525
+time_of_delay: 140124
+single_ptp_pass: 6497129
+time_between_wifi_read: 1694398
+time_between_wifi_write: 133584
+time_of_offset: 4464622
+time_of_delay: 134864
+single_ptp_pass: 6200871
+time_between_wifi_read: 2041006
+time_between_wifi_write: 99402
+time_of_offset: 4546102
+time_of_delay: 168516
+single_ptp_pass: 6507505
+time_between_wifi_read: 1661179
+time_between_wifi_write: 165663
+time_of_offset: 4504471
+time_of_delay: 241317
+single_ptp_pass: 6073856
+time_between_wifi_read: 1975654
+time_between_wifi_write: 105192
+time_of_offset: 4655913
+time_of_delay: 140273
+single_ptp_pass: 6713986
+time_between_wifi_read: 1841427
+time_between_wifi_write: 118972
+time_of_offset: 4565369
+time_of_delay: 166481
+single_ptp_pass: 6351814
+time_between_wifi_read: 1963018
+time_between_wifi_write: 94226
+time_of_offset: 4474205
+time_of_delay: 132308
+single_ptp_pass: 6407838
+time_between_wifi_read: 1733462
+time_between_wifi_write: 234190
+time_of_offset: 4538646
+time_of_delay: 209405
+single_ptp_pass: 6258394
+time_between_wifi_read: 2208328
+time_between_wifi_write: 117381
+time_of_offset: 4511946
+time_of_delay: 270082
+single_ptp_pass: 6446559
+time_between_wifi_read: 1826107
+time_between_wifi_write: 104656
+time_of_offset: 4773129
+time_of_delay: 129757
+single_ptp_pass: 6595648
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 3002992485
+ Count: 1
+slave estimate: 3007578012
+ Count: 2
+slave estimate: 3012159540
+ Count: 3
+slave estimate: 3016838005
+ Count: 4
+slave estimate: 3021295916
+ Count: 5
+slave estimate: 3025983007
+ Count: 6
+slave estimate: 3030513526
+ Count: 7
+slave estimate: 3035010217
+ Count: 8
+slave estimate: 3039474606
+ Count: 9
+slave estimate: 3043919300
+ Count: 10
+slave estimate: 3048513386
+ Count: 11
+slave estimate: 3052916924
+ Count: 12
+slave estimate: 3057462051
+ Count: 13
+slave estimate: 3062013459
+ Count: 14
+slave estimate: 3066497921
+time_between_wifi_read: 177036
+time_between_wifi_write: 104754
+time_of_offset: 4417835
+time_of_delay: 140891
+single_ptp_pass: 4607273
+time_between_wifi_read: 1831441
+time_between_wifi_write: 95852
+time_of_offset: 4610908
+time_of_delay: 145972
+single_ptp_pass: 6445305
+time_between_wifi_read: 2001655
+time_between_wifi_write: 109955
+time_of_offset: 4550824
+time_of_delay: 201555
+single_ptp_pass: 6420058
+time_between_wifi_read: 1792853
+time_between_wifi_write: 117622
+time_of_offset: 4714237
+time_of_delay: 140308
+single_ptp_pass: 6482329
+time_between_wifi_read: 2092664
+time_between_wifi_write: 116651
+time_of_offset: 4438605
+time_of_delay: 197796
+single_ptp_pass: 6475965
+time_between_wifi_read: 1855777
+time_between_wifi_write: 120300
+time_of_offset: 4706931
+time_of_delay: 204464
+single_ptp_pass: 6425261
+time_between_wifi_read: 1816788
+time_between_wifi_write: 94713
+time_of_offset: 4576950
+time_of_delay: 128336
+single_ptp_pass: 6431167
+time_between_wifi_read: 1911550
+time_between_wifi_write: 114387
+time_of_offset: 4451972
+time_of_delay: 224839
+single_ptp_pass: 6172276
+time_between_wifi_read: 1978807
+time_between_wifi_write: 108490
+time_of_offset: 4487322
+time_of_delay: 136375
+single_ptp_pass: 6497913
+time_between_wifi_read: 1812518
+time_between_wifi_write: 95213
+time_of_offset: 4456515
+time_of_delay: 126817
+single_ptp_pass: 6429817
+time_between_wifi_read: 2042925
+time_between_wifi_write: 116788
+time_of_offset: 4574126
+time_of_delay: 172140
+single_ptp_pass: 6544726
+time_between_wifi_read: 1680837
+time_between_wifi_write: 112735
+time_of_offset: 4447479
+time_of_delay: 139632
+single_ptp_pass: 6106712
+time_between_wifi_read: 2110574
+time_between_wifi_write: 125240
+time_of_offset: 4477647
+time_of_delay: 229780
+single_ptp_pass: 6417097
+time_between_wifi_read: 1855263
+time_between_wifi_write: 138703
+time_of_offset: 4571353
+time_of_delay: 223115
+single_ptp_pass: 6270009
+time_between_wifi_read: 1948177
+time_between_wifi_write: 105648
+time_of_offset: 4530848
+time_of_delay: 145772
+single_ptp_pass: 6441029
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 3116543696
+ Count: 1
+slave estimate: 3121073021
+ Count: 2
+slave estimate: 3125761778
+ Count: 3
+slave estimate: 3130565295
+ Count: 4
+slave estimate: 3135152619
+ Count: 5
+slave estimate: 3139680562
+ Count: 6
+slave estimate: 3144111104
+ Count: 7
+slave estimate: 3148854137
+ Count: 8
+slave estimate: 3153536961
+ Count: 9
+slave estimate: 3157966683
+ Count: 10
+slave estimate: 3162625263
+ Count: 11
+slave estimate: 3167223457
+ Count: 12
+slave estimate: 3171706341
+ Count: 13
+slave estimate: 3176155499
+ Count: 14
+slave estimate: 3180668826
+time_between_wifi_read: 136298
+time_between_wifi_write: 183273
+time_of_offset: 4526179
+time_of_delay: 168972
+single_ptp_pass: 4648015
+time_between_wifi_read: 1944417
+time_between_wifi_write: 117762
+time_of_offset: 4587102
+time_of_delay: 141093
+single_ptp_pass: 6708605
+time_between_wifi_read: 1873040
+time_between_wifi_write: 150171
+time_of_offset: 4678036
+time_of_delay: 194516
+single_ptp_pass: 6545712
+time_between_wifi_read: 2095523
+time_between_wifi_write: 152132
+time_of_offset: 4806547
+time_of_delay: 229290
+single_ptp_pass: 6961932
+time_between_wifi_read: 1714850
+time_between_wifi_write: 94040
+time_of_offset: 4706772
+time_of_delay: 123448
+single_ptp_pass: 6433572
+time_between_wifi_read: 1913974
+time_between_wifi_write: 110546
+time_of_offset: 4526579
+time_of_delay: 144983
+single_ptp_pass: 6440928
+time_between_wifi_read: 1761133
+time_between_wifi_write: 161180
+time_of_offset: 4509247
+time_of_delay: 159722
+single_ptp_pass: 6353427
+time_between_wifi_read: 2086536
+time_between_wifi_write: 111185
+time_of_offset: 4728708
+time_of_delay: 204927
+single_ptp_pass: 6797625
+time_between_wifi_read: 1731987
+time_between_wifi_write: 96674
+time_of_offset: 4682945
+time_of_delay: 177768
+single_ptp_pass: 6302044
+time_between_wifi_read: 1953824
+time_between_wifi_write: 124239
+time_of_offset: 4479428
+time_of_delay: 143574
+single_ptp_pass: 6573184
+time_between_wifi_read: 1904694
+time_between_wifi_write: 191091
+time_of_offset: 4668789
+time_of_delay: 233011
+single_ptp_pass: 6601453
+time_between_wifi_read: 1939614
+time_between_wifi_write: 93550
+time_of_offset: 4653945
+time_of_delay: 127075
+single_ptp_pass: 6571389
+time_between_wifi_read: 1758494
+time_between_wifi_write: 108904
+time_of_offset: 4471695
+time_of_delay: 191891
+single_ptp_pass: 6098825
+time_between_wifi_read: 1980942
+time_between_wifi_write: 106190
+time_of_offset: 4457978
+time_of_delay: 139859
+single_ptp_pass: 6470219
+time_between_wifi_read: 1883519
+time_between_wifi_write: 114581
+time_of_offset: 4495618
+time_of_delay: 173036
+single_ptp_pass: 6569467
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 3230570203
+ Count: 1
+slave estimate: 3235051694
+ Count: 2
+slave estimate: 3239710687
+ Count: 3
+slave estimate: 3244163315
+ Count: 4
+slave estimate: 3248685922
+ Count: 5
+slave estimate: 3253238549
+ Count: 6
+slave estimate: 3257656157
+ Count: 7
+slave estimate: 3262179856
+ Count: 8
+slave estimate: 3266712595
+ Count: 9
+slave estimate: 3271112662
+ Count: 10
+slave estimate: 3275521117
+ Count: 11
+slave estimate: 3279963380
+ Count: 12
+slave estimate: 3284350346
+ Count: 13
+slave estimate: 3288763287
+ Count: 14
+slave estimate: 3293209258
+time_between_wifi_read: 175198
+time_between_wifi_write: 115038
+time_of_offset: 4742738
+time_of_delay: 146103
+single_ptp_pass: 4892579
+time_between_wifi_read: 1905110
+time_between_wifi_write: 106789
+time_of_offset: 4471526
+time_of_delay: 169765
+single_ptp_pass: 6400920
+time_between_wifi_read: 1933993
+time_between_wifi_write: 104471
+time_of_offset: 4699721
+time_of_delay: 136117
+single_ptp_pass: 6614395
+time_between_wifi_read: 1835093
+time_between_wifi_write: 194187
+time_of_offset: 4507439
+time_of_delay: 179468
+single_ptp_pass: 6353236
+time_between_wifi_read: 1962586
+time_between_wifi_write: 164602
+time_of_offset: 4527369
+time_of_delay: 231581
+single_ptp_pass: 6339515
+time_between_wifi_read: 1820980
+time_between_wifi_write: 97303
+time_of_offset: 4582577
+time_of_delay: 125464
+single_ptp_pass: 6390832
+time_between_wifi_read: 1938144
+time_between_wifi_write: 211333
+time_of_offset: 4491917
+time_of_delay: 190744
+single_ptp_pass: 6403116
+time_between_wifi_read: 1932295
+time_between_wifi_write: 109001
+time_of_offset: 4447006
+time_of_delay: 239292
+single_ptp_pass: 6174635
+time_between_wifi_read: 1784723
+time_between_wifi_write: 119733
+time_of_offset: 4585727
+time_of_delay: 140741
+single_ptp_pass: 6362589
+time_between_wifi_read: 1808790
+time_between_wifi_write: 96991
+time_of_offset: 4440698
+time_of_delay: 122927
+single_ptp_pass: 6270752
+time_between_wifi_read: 1847368
+time_between_wifi_write: 119578
+time_of_offset: 4432428
+time_of_delay: 148612
+single_ptp_pass: 6275965
+time_between_wifi_read: 1798064
+time_between_wifi_write: 121903
+time_of_offset: 4471618
+time_of_delay: 136757
+single_ptp_pass: 6274354
+time_between_wifi_read: 1882445
+time_between_wifi_write: 102659
+time_of_offset: 4429483
+time_of_delay: 133363
+single_ptp_pass: 6296803
+time_between_wifi_read: 1794006
+time_between_wifi_write: 189865
+time_of_offset: 4517981
+time_of_delay: 169733
+single_ptp_pass: 6335491
+time_between_wifi_read: 1825309
+time_between_wifi_write: 113187
+time_of_offset: 4484849
+time_of_delay: 137815
+single_ptp_pass: 6425155
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 3343001971
+ Count: 1
+slave estimate: 3347535092
+ Count: 2
+slave estimate: 3352063402
+ Count: 3
+slave estimate: 3356672470
+ Count: 4
+slave estimate: 3361246995
+ Count: 5
+slave estimate: 3365734450
+ Count: 6
+slave estimate: 3370160202
+ Count: 7
+slave estimate: 3374543040
+ Count: 8
+slave estimate: 3378925126
+ Count: 9
+slave estimate: 3383412109
+ Count: 10
+slave estimate: 3387913677
+ Count: 11
+slave estimate: 3392596010
+ Count: 12
+slave estimate: 3397037624
+ Count: 13
+slave estimate: 3401421319
+ Count: 14
+slave estimate: 3406001142
+time_between_wifi_read: 150937
+time_between_wifi_write: 96174
+time_of_offset: 4509861
+time_of_delay: 130375
+single_ptp_pass: 4634229
+time_between_wifi_read: 2018281
+time_between_wifi_write: 104930
+time_of_offset: 4538750
+time_of_delay: 162116
+single_ptp_pass: 6485363
+time_between_wifi_read: 1555671
+time_between_wifi_write: 296742
+time_of_offset: 4621908
+time_of_delay: 272645
+single_ptp_pass: 6181432
+time_between_wifi_read: 1966182
+time_between_wifi_write: 98772
+time_of_offset: 4628790
+time_of_delay: 136945
+single_ptp_pass: 6751251
+time_between_wifi_read: 1712131
+time_between_wifi_write: 142507
+time_of_offset: 4629320
+time_of_delay: 153350
+single_ptp_pass: 6318041
+time_between_wifi_read: 2000459
+time_between_wifi_write: 115794
+time_of_offset: 4525498
+time_of_delay: 162714
+single_ptp_pass: 6487832
+time_between_wifi_read: 1788812
+time_between_wifi_write: 113535
+time_of_offset: 4497853
+time_of_delay: 133047
+single_ptp_pass: 6285932
+time_between_wifi_read: 1871341
+time_between_wifi_write: 95179
+time_of_offset: 4412873
+time_of_delay: 126069
+single_ptp_pass: 6268809
+time_between_wifi_read: 1616732
+time_between_wifi_write: 111613
+time_of_offset: 4414015
+time_of_delay: 139402
+single_ptp_pass: 6006828
+time_between_wifi_read: 2070173
+time_between_wifi_write: 212776
+time_of_offset: 4505572
+time_of_delay: 232599
+single_ptp_pass: 6499708
+time_between_wifi_read: 1823035
+time_between_wifi_write: 96185
+time_of_offset: 4536689
+time_of_delay: 125302
+single_ptp_pass: 6536893
+time_between_wifi_read: 1972166
+time_between_wifi_write: 111445
+time_of_offset: 4687193
+time_of_delay: 176483
+single_ptp_pass: 6587838
+time_between_wifi_read: 1822766
+time_between_wifi_write: 107612
+time_of_offset: 4467472
+time_of_delay: 141365
+single_ptp_pass: 6253081
+time_between_wifi_read: 1958182
+time_between_wifi_write: 117352
+time_of_offset: 4418018
+time_of_delay: 143366
+single_ptp_pass: 6420526
+time_between_wifi_read: 1718721
+time_between_wifi_write: 96183
+time_of_offset: 4625054
+time_of_delay: 124224
+single_ptp_pass: 6326975
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 3455632548
+ Count: 1
+slave estimate: 3460002425
+ Count: 2
+slave estimate: 3464423960
+ Count: 3
+slave estimate: 3468904852
+ Count: 4
+slave estimate: 3473366364
+ Count: 5
+slave estimate: 3477886986
+ Count: 6
+slave estimate: 3482374482
+ Count: 7
+slave estimate: 3487049380
+ Count: 8
+slave estimate: 3491621293
+ Count: 9
+slave estimate: 3496121920
+ Count: 10
+slave estimate: 3500635442
+ Count: 11
+slave estimate: 3505060136
+ Count: 12
+slave estimate: 3509526105
+ Count: 13
+slave estimate: 3513928462
+ Count: 14
+slave estimate: 3518461746
+time_between_wifi_read: 176563
+time_between_wifi_write: 97998
+time_of_offset: 4479316
+time_of_delay: 139908
+single_ptp_pass: 4611006
+time_between_wifi_read: 1707242
+time_between_wifi_write: 105974
+time_of_offset: 4411781
+time_of_delay: 129161
+single_ptp_pass: 6153457
+time_between_wifi_read: 1985674
+time_between_wifi_write: 117436
+time_of_offset: 4473580
+time_of_delay: 162535
+single_ptp_pass: 6416834
+time_between_wifi_read: 1839980
+time_between_wifi_write: 112930
+time_of_offset: 4475323
+time_of_delay: 192602
+single_ptp_pass: 6190127
+time_between_wifi_read: 1989110
+time_between_wifi_write: 137763
+time_of_offset: 4480312
+time_of_delay: 150765
+single_ptp_pass: 6489990
+time_between_wifi_read: 1757399
+time_between_wifi_write: 118416
+time_of_offset: 4562044
+time_of_delay: 141741
+single_ptp_pass: 6327096
+time_between_wifi_read: 1926091
+time_between_wifi_write: 217348
+time_of_offset: 4564239
+time_of_delay: 207676
+single_ptp_pass: 6529787
+time_between_wifi_read: 1726334
+time_between_wifi_write: 359578
+time_of_offset: 4802558
+time_of_delay: 229376
+single_ptp_pass: 6505427
+time_between_wifi_read: 2027745
+time_between_wifi_write: 97455
+time_of_offset: 4582044
+time_of_delay: 169775
+single_ptp_pass: 6533802
+time_between_wifi_read: 1847008
+time_between_wifi_write: 127536
+time_of_offset: 4494243
+time_of_delay: 168451
+single_ptp_pass: 6295004
+time_between_wifi_read: 1943522
+time_between_wifi_write: 144650
+time_of_offset: 4569760
+time_of_delay: 155749
+single_ptp_pass: 6508081
+time_between_wifi_read: 1865205
+time_between_wifi_write: 95720
+time_of_offset: 4408362
+time_of_delay: 154153
+single_ptp_pass: 6297732
+time_between_wifi_read: 1928617
+time_between_wifi_write: 118559
+time_of_offset: 4523432
+time_of_delay: 140302
+single_ptp_pass: 6436544
+time_between_wifi_read: 1854940
+time_between_wifi_write: 112089
+time_of_offset: 4394920
+time_of_delay: 153705
+single_ptp_pass: 6241008
+time_between_wifi_read: 2072803
+time_between_wifi_write: 103371
+time_of_offset: 4508345
+time_of_delay: 181593
+single_ptp_pass: 6468342
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 3568605983
+ Count: 1
+slave estimate: 3573040845
+ Count: 2
+slave estimate: 3577570548
+ Count: 3
+slave estimate: 3582119162
+ Count: 4
+slave estimate: 3586793206
+ Count: 5
+slave estimate: 3591308216
+ Count: 6
+slave estimate: 3595765798
+ Count: 7
+slave estimate: 3600125497
+ Count: 8
+slave estimate: 3604639521
+ Count: 9
+slave estimate: 3609145317
+ Count: 10
+slave estimate: 3613572978
+ Count: 11
+slave estimate: 3618113972
+ Count: 12
+slave estimate: 3622575099
+ Count: 13
+slave estimate: 3626961646
+ Count: 14
+slave estimate: 3631481704
+time_between_wifi_read: 140778
+time_between_wifi_write: 101003
+time_of_offset: 4626853
+time_of_delay: 131312
+single_ptp_pass: 4837731
+time_between_wifi_read: 1728480
+time_between_wifi_write: 122476
+time_of_offset: 4507867
+time_of_delay: 145361
+single_ptp_pass: 6308912
+time_between_wifi_read: 1613485
+time_between_wifi_write: 101795
+time_of_offset: 4643288
+time_of_delay: 124545
+single_ptp_pass: 6266520
+time_between_wifi_read: 1981208
+time_between_wifi_write: 209204
+time_of_offset: 4625130
+time_of_delay: 189952
+single_ptp_pass: 6685758
+time_between_wifi_read: 1809801
+time_between_wifi_write: 117951
+time_of_offset: 4723798
+time_of_delay: 133981
+single_ptp_pass: 6538139
+time_between_wifi_read: 1869598
+time_between_wifi_write: 190505
+time_of_offset: 4614864
+time_of_delay: 183216
+single_ptp_pass: 6482776
+time_between_wifi_read: 1715126
+time_between_wifi_write: 94703
+time_of_offset: 4477299
+time_of_delay: 134838
+single_ptp_pass: 6172618
+time_between_wifi_read: 1953141
+time_between_wifi_write: 116646
+time_of_offset: 4409282
+time_of_delay: 141508
+single_ptp_pass: 6428112
+time_between_wifi_read: 1773822
+time_between_wifi_write: 99981
+time_of_offset: 4510908
+time_of_delay: 165768
+single_ptp_pass: 6333558
+time_between_wifi_read: 1936286
+time_between_wifi_write: 95487
+time_of_offset: 4567629
+time_of_delay: 128419
+single_ptp_pass: 6487333
+time_between_wifi_read: 1609551
+time_between_wifi_write: 196622
+time_of_offset: 4492914
+time_of_delay: 187089
+single_ptp_pass: 6102628
+time_between_wifi_read: 1955554
+time_between_wifi_write: 109376
+time_of_offset: 4549452
+time_of_delay: 201270
+single_ptp_pass: 6349450
+time_between_wifi_read: 1473723
+time_between_wifi_write: 134655
+time_of_offset: 4519693
+time_of_delay: 149674
+single_ptp_pass: 5987011
+time_between_wifi_read: 1941892
+time_between_wifi_write: 117016
+time_of_offset: 4450599
+time_of_delay: 140528
+single_ptp_pass: 6374992
+time_between_wifi_read: 1676030
+time_between_wifi_write: 351099
+time_of_offset: 4663828
+time_of_delay: 259263
+single_ptp_pass: 6409082
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 3681287332
+ Count: 1
+slave estimate: 3686051329
+ Count: 2
+slave estimate: 3690675950
+ Count: 3
+slave estimate: 3695033261
+ Count: 4
+slave estimate: 3699524027
+ Count: 5
+slave estimate: 3704135803
+ Count: 6
+slave estimate: 3708978561
+ Count: 7
+slave estimate: 3713616507
+ Count: 8
+slave estimate: 3718102222
+ Count: 9
+slave estimate: 3722895092
+ Count: 10
+slave estimate: 3727265762
+ Count: 11
+slave estimate: 3731843427
+ Count: 12
+slave estimate: 3736568839
+ Count: 13
+slave estimate: 3741418952
+ Count: 14
+slave estimate: 3745972995
+time_between_wifi_read: 296035
+time_between_wifi_write: 95187
+time_of_offset: 4597377
+time_of_delay: 195929
+single_ptp_pass: 4735401
+time_between_wifi_read: 1554964
+time_between_wifi_write: 112728
+time_of_offset: 4804456
+time_of_delay: 134673
+single_ptp_pass: 6469346
+time_between_wifi_read: 1960973
+time_between_wifi_write: 101182
+time_of_offset: 4643402
+time_of_delay: 130583
+single_ptp_pass: 6599293
+time_between_wifi_read: 1607146
+time_between_wifi_write: 93046
+time_of_offset: 4405659
+time_of_delay: 128862
+single_ptp_pass: 6046386
+time_between_wifi_read: 2012011
+time_between_wifi_write: 111559
+time_of_offset: 4520777
+time_of_delay: 167706
+single_ptp_pass: 6449793
+time_between_wifi_read: 1784869
+time_between_wifi_write: 365457
+time_of_offset: 4713451
+time_of_delay: 317817
+single_ptp_pass: 6518858
+time_between_wifi_read: 2092263
+time_between_wifi_write: 157898
+time_of_offset: 4818866
+time_of_delay: 239446
+single_ptp_pass: 6843887
+time_between_wifi_read: 1912292
+time_between_wifi_write: 101502
+time_of_offset: 4637726
+time_of_delay: 175243
+single_ptp_pass: 6457200
+time_between_wifi_read: 1786314
+time_between_wifi_write: 107861
+time_of_offset: 4480927
+time_of_delay: 162590
+single_ptp_pass: 6270652
+time_between_wifi_read: 1709441
+time_between_wifi_write: 180374
+time_of_offset: 4869628
+time_of_delay: 167082
+single_ptp_pass: 6576682
+time_between_wifi_read: 1799682
+time_between_wifi_write: 97323
+time_of_offset: 4431818
+time_of_delay: 130416
+single_ptp_pass: 6225169
+time_between_wifi_read: 1667162
+time_between_wifi_write: 98722
+time_of_offset: 4536848
+time_of_delay: 210029
+single_ptp_pass: 6137335
+time_between_wifi_read: 2163912
+time_between_wifi_write: 111935
+time_of_offset: 4674546
+time_of_delay: 238256
+single_ptp_pass: 6788691
+time_between_wifi_read: 1773898
+time_between_wifi_write: 110134
+time_of_offset: 4857757
+time_of_delay: 135632
+single_ptp_pass: 6733172
+time_between_wifi_read: 1936694
+time_between_wifi_write: 302813
+time_of_offset: 4713118
+time_of_delay: 232100
+single_ptp_pass: 6643755
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 3795868226
+ Count: 1
+slave estimate: 3800276379
+ Count: 2
+slave estimate: 3804794338
+ Count: 3
+slave estimate: 3809362477
+ Count: 4
+slave estimate: 3814125143
+ Count: 5
+slave estimate: 3818728030
+ Count: 6
+slave estimate: 3823428158
+ Count: 7
+slave estimate: 3827835721
+ Count: 8
+slave estimate: 3832429420
+ Count: 9
+slave estimate: 3837024141
+ Count: 10
+slave estimate: 3841436395
+ Count: 11
+slave estimate: 3845897918
+ Count: 12
+slave estimate: 3850315676
+ Count: 13
+slave estimate: 3854673977
+ Count: 14
+slave estimate: 3859316367
+time_between_wifi_read: 138689
+time_between_wifi_write: 118330
+time_of_offset: 4524466
+time_of_delay: 141155
+single_ptp_pass: 4662294
+time_between_wifi_read: 2050243
+time_between_wifi_write: 103043
+time_of_offset: 4391528
+time_of_delay: 181651
+single_ptp_pass: 6326332
+time_between_wifi_read: 1711059
+time_between_wifi_write: 96014
+time_of_offset: 4573410
+time_of_delay: 120819
+single_ptp_pass: 6384557
+time_between_wifi_read: 1983681
+time_between_wifi_write: 117228
+time_of_offset: 4591915
+time_of_delay: 142686
+single_ptp_pass: 6647573
+time_between_wifi_read: 1722804
+time_between_wifi_write: 142417
+time_of_offset: 4752452
+time_of_delay: 207996
+single_ptp_pass: 6346123
+time_between_wifi_read: 1946347
+time_between_wifi_write: 123150
+time_of_offset: 4657605
+time_of_delay: 143333
+single_ptp_pass: 6798894
+time_between_wifi_read: 1695301
+time_between_wifi_write: 98595
+time_of_offset: 4776875
+time_of_delay: 140771
+single_ptp_pass: 6431760
+time_between_wifi_read: 1940953
+time_between_wifi_write: 119890
+time_of_offset: 4432624
+time_of_delay: 159439
+single_ptp_pass: 6465842
+time_between_wifi_read: 1737905
+time_between_wifi_write: 123375
+time_of_offset: 4644352
+time_of_delay: 139884
+single_ptp_pass: 6394800
+time_between_wifi_read: 1919956
+time_between_wifi_write: 118070
+time_of_offset: 4643724
+time_of_delay: 165123
+single_ptp_pass: 6500348
+time_between_wifi_read: 1763267
+time_between_wifi_write: 94701
+time_of_offset: 4461991
+time_of_delay: 129157
+single_ptp_pass: 6219703
+time_between_wifi_read: 1967838
+time_between_wifi_write: 115613
+time_of_offset: 4510160
+time_of_delay: 156549
+single_ptp_pass: 6424830
+time_between_wifi_read: 1836509
+time_between_wifi_write: 101216
+time_of_offset: 4446218
+time_of_delay: 128528
+single_ptp_pass: 6273157
+time_between_wifi_read: 1945924
+time_between_wifi_write: 93500
+time_of_offset: 4399690
+time_of_delay: 126159
+single_ptp_pass: 6479927
+time_between_wifi_read: 2041879
+time_between_wifi_write: 115930
+time_of_offset: 4562747
+time_of_delay: 239199
+single_ptp_pass: 6384470
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 3908958187
+ Count: 1
+slave estimate: 3913482064
+ Count: 2
+slave estimate: 3917958652
+ Count: 3
+slave estimate: 3922419256
+ Count: 4
+slave estimate: 3926835661
+ Count: 5
+slave estimate: 3931387244
+ Count: 6
+slave estimate: 3935755331
+ Count: 7
+slave estimate: 3940387341
+ Count: 8
+slave estimate: 3944957236
+ Count: 9
+slave estimate: 3949373907
+ Count: 10
+slave estimate: 3954219956
+ Count: 11
+slave estimate: 3959251661
+ Count: 12
+slave estimate: 3963634848
+ Count: 13
+slave estimate: 3968060339
+ Count: 14
+slave estimate: 3972583320
+time_between_wifi_read: 172473
+time_between_wifi_write: 102887
+time_of_offset: 4481718
+time_of_delay: 139374
+single_ptp_pass: 4685344
+time_between_wifi_read: 1757892
+time_between_wifi_write: 139334
+time_of_offset: 4579958
+time_of_delay: 152154
+single_ptp_pass: 6402413
+time_between_wifi_read: 1943388
+time_between_wifi_write: 119263
+time_of_offset: 4542993
+time_of_delay: 141143
+single_ptp_pass: 6481758
+time_between_wifi_read: 1736538
+time_between_wifi_write: 97410
+time_of_offset: 4448903
+time_of_delay: 177078
+single_ptp_pass: 6072893
+time_between_wifi_read: 1959610
+time_between_wifi_write: 113374
+time_of_offset: 4454407
+time_of_delay: 139298
+single_ptp_pass: 6467199
+time_between_wifi_read: 1797707
+time_between_wifi_write: 118249
+time_of_offset: 4604357
+time_of_delay: 135395
+single_ptp_pass: 6411531
+time_between_wifi_read: 1956567
+time_between_wifi_write: 97825
+time_of_offset: 4403464
+time_of_delay: 131343
+single_ptp_pass: 6390070
+time_between_wifi_read: 1873918
+time_between_wifi_write: 273558
+time_of_offset: 4677594
+time_of_delay: 286190
+single_ptp_pass: 6408538
+time_between_wifi_read: 1960523
+time_between_wifi_write: 130925
+time_of_offset: 4610737
+time_of_delay: 143265
+single_ptp_pass: 6550656
+time_between_wifi_read: 1753401
+time_between_wifi_write: 130821
+time_of_offset: 4455221
+time_of_delay: 144768
+single_ptp_pass: 6379264
+time_between_wifi_read: 1981888
+time_between_wifi_write: 470072
+time_of_offset: 5046464
+time_of_delay: 318934
+single_ptp_pass: 7190897
+time_between_wifi_read: 1550541
+time_between_wifi_write: 134678
+time_of_offset: 5096994
+time_of_delay: 141372
+single_ptp_pass: 6643238
+time_between_wifi_read: 1967603
+time_between_wifi_write: 105539
+time_of_offset: 4413665
+time_of_delay: 141020
+single_ptp_pass: 6377865
+time_between_wifi_read: 1812277
+time_between_wifi_write: 140251
+time_of_offset: 4497997
+time_of_delay: 150417
+single_ptp_pass: 6379533
+time_between_wifi_read: 2086819
+time_between_wifi_write: 100015
+time_of_offset: 4480918
+time_of_delay: 205992
+single_ptp_pass: 6468973
+------------------------------Writing Out to Master
+ Count: 0
+slave estimate: 4022679594
+ Count: 1
+slave estimate: 4027060358
+ Count: 2
+slave estimate: 4031640651
+ Count: 3
+slave estimate: 4036223828
+ Count: 4
+slave estimate: 4040647095
+ Count: 5
+slave estimate: 4045033178
+ Count: 6
+slave estimate: 4049684388
+ Count: 7
+slave estimate: 4054089133
+ Count: 8
+slave estimate: 4058553482
+ Count: 9
+slave estimate: 4063099573
+ Count: 10
+slave estimate: 4067731007
+ Count: 11
+slave estimate: 4072234050
+ Count: 12
+slave estimate: 4076747696

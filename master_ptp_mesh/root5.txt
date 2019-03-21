@@ -1,0 +1,859 @@
+Toolchain path: /home/natsubuntu/esp32/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+Toolchain version: crosstool-ng-1.22.0-80-g6c4433a
+Compiler version: 5.2.0
+Python requirements from /home/natsubuntu/esp32/esp-mdf/esp-idf/requirements.txt are satisfied.
+MONITOR
+ewä-Ç8ê&ä∂¬0áíöM”»çÅÕ¥'¬≈†	ıù•™ }©EJîïb¢Î·:¬Eì¢”Ω¶P*’%ëA*˙=èU©
+≥Îô©÷≈p'Ç¨Z°I•Ç∏©VHcº≠%…ˆ¬Aê	}§ûó¬∏Ç¨÷Èvö¬¡∞iÌ0E…∂'‚a0âëøÈ:¬Aêi¡ﬂñ˘ö¬¡∞#QÎ—µ'TÍQ ˚ç´í•È:F®¨+ë∫¬m∂÷¡∞,¢lµ´¢:äÎ≈¥'¬ÕÊñÇë,…ïŸ:S í#!Î≈dö¬—∞˙8êÇ¨+Ÿ:Ãäï¶»Ï+—ö¬—∞¬0Ç¨+Ÿ:”ö≤#°ñã…πÇ∏¬8∫ñ”à[0;32mI (28) boot: ESP-IDF v3.3-beta1-223-ga62cbfe 2nd stage bootloader[0m
+[0;32mI (28) boot: compile time 18:59:29[0m
+[0;32mI (28) boot: Enabling RNG early entropy source...[0m
+[0;32mI (34) boot: SPI Speed      : 40MHz[0m
+[0;32mI (38) boot: SPI Mode       : DIO[0m
+[0;32mI (42) boot: SPI Flash Size : 4MB[0m
+[0;32mI (46) boot: Partition Table:[0m
+[0;32mI (49) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (64) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (72) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  3 factory          factory app      00 00 00010000 00140000[0m
+[0;32mI (87) boot:  4 ota_0            OTA app          00 10 00150000 00140000[0m
+[0;32mI (94) boot:  5 ota_1            OTA app          00 11 00290000 00140000[0m
+[0;32mI (102) boot:  6 coredump         Unknown data     01 03 003d0000 00010000[0m
+[0;32mI (109) boot:  7 reserved         Unknown data     01 fe 003e0000 00020000[0m
+[0;32mI (117) boot: End of partition table[0m
+[0;32mI (121) boot: Defaulting to factory image[0m
+[0;32mI (126) esp_image: segment 0: paddr=0x00010020 vaddr=0x3f400020 size=0x20a60 (133728) map[0m
+[0;32mI (181) esp_image: segment 1: paddr=0x00030a88 vaddr=0x3ff80000 size=0x00000 (     0) load[0m
+[0;32mI (182) esp_image: segment 2: paddr=0x00030a90 vaddr=0x3ff80000 size=0x00000 (     0) load[0m
+[0;32mI (188) esp_image: segment 3: paddr=0x00030a98 vaddr=0x3ffb0000 size=0x02ac0 ( 10944) load[0m
+[0;32mI (201) esp_image: segment 4: paddr=0x00033560 vaddr=0x3ffb2ac0 size=0x00000 (     0) load[0m
+[0;32mI (206) esp_image: segment 5: paddr=0x00033568 vaddr=0x40080000 size=0x00400 (  1024) load[0m
+[0;32mI (215) esp_image: segment 6: paddr=0x00033970 vaddr=0x40080400 size=0x0c6a0 ( 50848) load[0m
+[0;32mI (245) esp_image: segment 7: paddr=0x00040018 vaddr=0x400d0018 size=0x926dc (599772) map[0m
+[0;32mI (455) esp_image: segment 8: paddr=0x000d26fc vaddr=0x4008caa0 size=0x04200 ( 16896) load[0m
+[0;32mI (463) esp_image: segment 9: paddr=0x000d6904 vaddr=0x400c0000 size=0x00000 (     0) load[0m
+[0;32mI (463) esp_image: segment 10: paddr=0x000d690c vaddr=0x50000000 size=0x00000 (     0) load[0m
+[0;32mI (471) esp_image: segment 11: paddr=0x000d6914 vaddr=0x50000000 size=0x00000 (     0) load[0m
+[0;32mI (490) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (490) boot: Disabling RNG early entropy source...[0m
+[0;32mI (492) cpu_start: Pro cpu up.[0m
+[0;32mI (495) cpu_start: Application information:[0m
+[0;32mI (500) cpu_start: Project name:     master_wifi_mesh[0m
+[0;32mI (506) cpu_start: App version:      f028311-dirty[0m
+[0;32mI (512) cpu_start: Compile time:     23:02:50[0m
+[0;32mI (517) cpu_start: Compile date:     Mar  9 2019[0m
+[0;32mI (522) cpu_start: ESP-IDF:          v3.3-beta1-223-ga62cbfe[0m
+[0;32mI (528) cpu_start: Single core mode[0m
+[0;32mI (533) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (540) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (546) heap_init: At 3FFB9408 len 00026BF8 (154 KiB): DRAM[0m
+[0;32mI (552) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (558) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (564) heap_init: At 40090CA0 len 0000F360 (60 KiB): IRAM[0m
+[0;32mI (571) cpu_start: Pro cpu start user code[0m
+[0;32mI (253) esp_core_dump: Init core dump to flash[0m
+[0;32mI (254) esp_core_dump: Found partition 'coredump' @ 3d0000 65536 bytes[0m
+[0;32mI (257) cpu_start: Found core dump 13032 bytes in flash @ 0x3d0000[0m
+[0;32mI (261) cpu_start: Starting scheduler on PRO CPU.[0m
+I (291) wifi: wifi driver task: 3ffc16bc, prio:23, stack:3584, core=0
+I (291) wifi: wifi firmware version: 44ce2e2
+I (292) wifi: config NVS flash: enabled
+I (294) wifi: config nano formating: disabled
+[0;32mI (298) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE[0m
+[0;32mI (308) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE[0m
+I (325) wifi: Init dynamic tx buffer num: 32
+I (325) wifi: Init data frame dynamic rx buffer num: 32
+I (326) wifi: Init management frame dynamic rx buffer num: 32
+I (332) wifi: Init static rx buffer size: 1600
+I (336) wifi: Init static rx buffer num: 10
+I (340) wifi: Init dynamic rx buffer num: 32
+I (345) wifi: Set ps type: 0
+
+[0;32mI (420) phy: phy_version: 4006, e540b8e, Dec 17 2018, 11:53:06, 0, 0[0m
+I (422) wifi: mode : sta (30:ae:a4:ea:c6:60)
+[0;32mI (423) [mwifi, 136]: esp-mdf version: f028311-dirty[0m
+W (426) wifi: [beacon]interval:100ms
+I (429) wifi: mode : sta (30:ae:a4:ea:c6:60) + softAP (30:ae:a4:ea:c6:61)
+I (437) wifi: Init max length of beacon: 752/752
+I (440) wifi: Init max length of beacon: 752/752
+I (447) mesh: [IO]disable self-organizing<reconnect>
+W (450) wifi: [beacon]interval:100ms
+I (452) mesh: [CONFIG]invalid router settings, ssid_len:0, ssid:, bssid:00:00:00:00:00:00
+I (1466) wifi: Set ps type: 0
+
+I (1473) mesh: [MANUAL]designated as root and router is not set
+[0;32mI (1473) [mwifi, 97]: MESH is started[0m
+[0;32mI (1474) [get_started, 258]: event_loop_cb, event: 0[0m
+[0;32mI (1478) [get_started, 263]: MESH is started[0m
+[0;32mI (1483) [get_started, 140]: Root is running[0m
+I (5665) wifi: new:<13,2>, old:<13,0>, ap:<13,2>, sta:<0,0>, prof:13
+I (5667) wifi: station: 80:7d:3a:f0:6c:c4 join, AID=1, bgn, 40D
+[0;32mI (5671) [mwifi, 115]: Routing table is changed by adding newly joined children add_num: 1, total_num: 2[0m
+[0;32mI (5676) [get_started, 258]: event_loop_cb, event: 5[0m
+[0;32mI (5682) [get_started, 258]: event_loop_cb, event: 3[0m
+
+Root Time: 294361698
+Root Time: 297476305
+Root Time: 300472909
+Root Time: 305026392
+Root Time: 307980542
+Root Time: 310698973
+Root Time: 313433876
+Root Time: 316195730
+Root Time: 318937217
+Root Time: 321676119
+Root Time: 324285220
+Root Time: 326869833
+Root Time: 329514353
+Root Time: 331969015
+Root Time: 334432598
+Root Time: 336887131
+Root Time: 339435796
+Root Time: 341903654
+Root Time: 344449986
+Root Time: 346847022
+Root Time: 349362055
+Root Time: 351695872
+Root Time: 354201931
+Root Time: 356581353
+Root Time: 359247065
+Root Time: 361642875
+Root Time: 363946862
+Root Time: 366247620
+Root Time: 368988068
+Root Time: 371434720
+Root Time: 373860229
+Root Time: 376191147
+Root Time: 378612592
+Root Time: 381025419
+Root Time: 383470468
+Root Time: 385767439
+Root Time: 388355647
+Root Time: 390643817
+Root Time: 393166958
+Root Time: 395473878
+Root Time: 397886853
+Root Time: 400210066
+Root Time: 402561700
+Root Time: 404865559
+Root Time: 407296596
+Root Time: 409644934
+Root Time: 411960970
+Root Time: 414237730
+Root Time: 416713228
+Root Time: 419004677
+Root Time: 421297078
+Root Time: 423598748
+Root Time: 426324554
+Root Time: 428576919
+Root Time: 430838492
+Root Time: 433135875
+Root Time: 435526504
+Root Time: 437805442
+Root Time: 440148546
+Root Time: 442733145
+Root Time: 445302694
+Root Time: 447561165
+Root Time: 449817572
+Root Time: 452122622
+Root Time: 454751570
+Root Time: 457019927
+Root Time: 459272420
+Root Time: 461627795
+Root Time: 464032907
+Root Time: 466428503
+Root Time: 468831946
+Root Time: 471110618
+Root Time: 473647051
+Root Time: 475914862
+Root Time: 478172291
+Root Time: 480471104
+Root Time: 483068395
+Root Time: 485425392
+Root Time: 487802346
+Root Time: 490097873
+Root Time: 493041344
+Root Time: 495346560
+Root Time: 497707121
+Root Time: 500102015
+Root Time: 502506970
+Root Time: 504757900
+Root Time: 507096576
+Root Time: 509422539
+Root Time: 512019552
+Root Time: 514301900
+Root Time: 516866217
+Root Time: 519132947
+Root Time: 521559216
+Root Time: 523842037
+Root Time: 526187606
+Root Time: 528484506
+Root Time: 531107909
+Root Time: 533356243
+Root Time: 535618108
+Root Time: 537971961
+Root Time: 540468695
+Root Time: 542795393
+Root Time: 545121040
+Root Time: 547376427
+Root Time: 549788957
+Root Time: 552063660
+Root Time: 554357257
+Root Time: 556729988
+Root Time: 559147752
+Root Time: 561554030
+Root Time: 563901220
+Root Time: 566266668
+Root Time: 568733738
+Root Time: 571044386
+Root Time: 573382694
+Root Time: 575661208
+Root Time: 578069588
+Root Time: 580511800
+Root Time: 582869474
+Root Time: 585134691
+Root Time: 587759205
+Root Time: 590025585
+Root Time: 592355510
+Root Time: 594636799
+Root Time: 597060389
+Root Time: 599328120
+Root Time: 601665900
+Root Time: 604023655
+Root Time: 606604072
+Root Time: 608856334
+Root Time: 611195011
+Root Time: 613455956
+Root Time: 615887285
+Root Time: 618166802
+Root Time: 620466353
+Root Time: 622749781
+Root Time: 625216637
+Root Time: 627560499
+Root Time: 629853823
+Root Time: 632130406
+Root Time: 634823893
+Root Time: 637141428
+Root Time: 639423650
+Root Time: 641733821
+Root Time: 644191251
+Root Time: 646451490
+Root Time: 648834026
+Root Time: 651156149
+Root Time: 653662170
+Root Time: 656031261
+Root Time: 658339184
+Root Time: 660678908
+Root Time: 663749792
+Root Time: 666155072
+Root Time: 668478646
+Root Time: 670732948
+Root Time: 673113387
+Root Time: 675390782
+Root Time: 677761394
+Root Time: 680112758
+Root Time: 682545092
+Root Time: 684793559
+Root Time: 687086332
+Root Time: 689401066
+Root Time: 692083735
+Root Time: 694486846
+Root Time: 696910460
+Root Time: 699174846
+Root Time: 701550142
+Root Time: 703812783
+Root Time: 706068072
+Root Time: 708459126
+Root Time: 710864611
+Root Time: 713149034
+Root Time: 715809172
+Root Time: 718510625
+Root Time: 720942328
+Root Time: 723171128
+Root Time: 725466651
+Root Time: 727736933
+Root Time: 730118441
+Root Time: 732376017
+Root Time: 734628382
+Root Time: 737065100
+Root Time: 739679861
+Root Time: 742439055
+Root Time: 744756274
+Root Time: 747072113
+Root Time: 749903805
+Root Time: 752177251
+Root Time: 754440988
+Root Time: 756743660
+Root Time: 759316948
+Root Time: 761660873
+Root Time: 764057077
+Root Time: 766396931
+Root Time: 768865733
+Root Time: 771110144
+Root Time: 773661670
+Root Time: 776086497
+Root Time: 778801548
+Root Time: 781141906
+Root Time: 783547652
+Root Time: 786092935
+Root Time: 788726589
+Root Time: 791002476
+Root Time: 793297921
+Root Time: 795866641
+Root Time: 798791736
+Root Time: 801061902
+Root Time: 803356958
+Root Time: 805701220
+Root Time: 808174314
+Root Time: 810415001
+Root Time: 812779763
+Root Time: 815075514
+Root Time: 817602416
+Root Time: 819872753
+Root Time: 822202219
+Root Time: 824717082
+Root Time: 827367686
+Root Time: 830054686
+Root Time: 832347764
+Root Time: 834611288
+Root Time: 837219245
+Root Time: 839651126
+Root Time: 841979550
+Root Time: 844279627
+Root Time: 846752748
+Root Time: 849037960
+Root Time: 851331290
+Root Time: 854018581
+Root Time: 856733249
+Root Time: 859012139
+Root Time: 861262216
+Root Time: 863543018
+Root Time: 865978063
+Root Time: 868311579
+Root Time: 870568431
+Root Time: 872828066
+Root Time: 875273543
+Root Time: 877638664
+Root Time: 880038901
+Root Time: 882312592
+Root Time: 885260548
+Root Time: 887597131
+Root Time: 889866972
+Root Time: 892138130
+Root Time: 894626641
+Root Time: 896913709
+Root Time: 899343336
+Root Time: 901739097
+Root Time: 904140547
+Root Time: 906456011
+Root Time: 908839208
+Root Time: 911189015
+Root Time: 913627054
+Root Time: 915904934
+Root Time: 918191099
+Root Time: 920452783
+Root Time: 922966739
+Root Time: 925233232
+Root Time: 927585851
+Root Time: 929876966
+Root Time: 932792587
+Root Time: 935069638
+Root Time: 937448030
+Root Time: 939925543
+Root Time: 942468547
+Root Time: 944762080
+Root Time: 947070942
+Root Time: 949400155
+Root Time: 951852088
+Root Time: 954341193
+Root Time: 956652456
+Root Time: 958952118
+Root Time: 961557443
+Root Time: 963840554
+Root Time: 966173989
+Root Time: 968674680
+Root Time: 971151255
+Root Time: 973776429
+Root Time: 976128861
+Root Time: 978452773
+Root Time: 980982613
+Root Time: 983399062
+Root Time: 985699448
+Root Time: 988042371
+Root Time: 990463650
+Root Time: 992754412
+Root Time: 995120332
+Root Time: 997429041
+Root Time: 999924241
+Root Time: 1002463177
+Root Time: 1004761891
+Root Time: 1007065267
+Root Time: 1009674833
+Root Time: 1012086147
+Root Time: 1014448512
+Root Time: 1016792593
+Root Time: 1019278570
+Root Time: 1021543189
+Root Time: 1023872432
+Root Time: 1026177236
+Root Time: 1028605389
+Root Time: 1030936919
+Root Time: 1033242485
+Root Time: 1035544299
+Root Time: 1037964239
+Root Time: 1040491286
+Root Time: 1042898265
+Root Time: 1045232761
+Root Time: 1047787534
+Root Time: 1050073395
+Root Time: 1052476635
+Root Time: 1054789833
+Root Time: 1057349151
+Root Time: 1059912918
+Root Time: 1062245115
+Root Time: 1064632101
+Root Time: 1067106504
+Root Time: 1069404742
+Root Time: 1071728317
+Root Time: 1074037565
+Root Time: 1076678082
+Root Time: 1079220550
+Root Time: 1081508098
+Root Time: 1083848861
+Root Time: 1086323756
+Root Time: 1088580077
+Root Time: 1090877601
+Root Time: 1093183985
+Root Time: 1095674517
+Root Time: 1098130724
+Root Time: 1100474738
+Root Time: 1102803499
+Root Time: 1105261696
+Root Time: 1107561930
+Root Time: 1109925241
+Root Time: 1112576113
+Root Time: 1115030235
+Root Time: 1117339287
+Root Time: 1119657551
+Root Time: 1121965548
+Root Time: 1124637747
+Root Time: 1126918692
+Root Time: 1129415586
+Root Time: 1131709158
+Root Time: 1134378730
+Root Time: 1136660879
+Root Time: 1139074932
+Root Time: 1141333706
+Root Time: 1143837279
+Root Time: 1146102862
+Root Time: 1148444744
+Root Time: 1150908725
+Root Time: 1153459290
+Root Time: 1155903334
+Root Time: 1158214140
+Root Time: 1160515213
+Root Time: 1163146531
+Root Time: 1165548381
+Root Time: 1168038673
+Root Time: 1170456919
+Root Time: 1172887039
+Root Time: 1175212129
+Root Time: 1177506313
+Root Time: 1179784776
+Root Time: 1182475121
+Root Time: 1184791957
+Root Time: 1187054667
+Root Time: 1189364528
+Root Time: 1192454387
+Root Time: 1194763815
+Root Time: 1197107767
+Root Time: 1199392379
+Root Time: 1201842381
+Root Time: 1204291126
+Root Time: 1206744618
+Root Time: 1209034731
+Root Time: 1211466332
+Root Time: 1213757732
+Root Time: 1216065260
+Root Time: 1218396169
+Root Time: 1221273861
+Root Time: 1223616746
+Root Time: 1225955805
+Root Time: 1228233402
+Root Time: 1231188547
+Root Time: 1233471963
+Root Time: 1235816034
+Root Time: 1238112595
+Root Time: 1240718233
+Root Time: 1242996139
+Root Time: 1245270788
+Root Time: 1247534667
+Root Time: 1249951896
+Root Time: 1252258745
+Root Time: 1254548963
+Root Time: 1256896919
+Root Time: 1259359976
+Root Time: 1261649015
+Root Time: 1263951349
+Root Time: 1266434519
+Root Time: 1269416111
+Root Time: 1272553554
+Root Time: 1274829068
+Root Time: 1277099281
+Root Time: 1279525017
+Root Time: 1281860070
+Root Time: 1284295160
+Root Time: 1286670941
+Root Time: 1289275896
+Root Time: 1291560869
+Root Time: 1293889693
+Root Time: 1296302535
+Root Time: 1298823808
+Root Time: 1301276813
+Root Time: 1303548657
+Root Time: 1306014667
+Root Time: 1308641298
+Root Time: 1311071944
+Root Time: 1313331133
+Root Time: 1315601362
+Root Time: 1318092433
+Root Time: 1320620714
+Root Time: 1322977709
+Root Time: 1325293722
+Root Time: 1327680906
+Root Time: 1329929379
+Root Time: 1332190070
+Root Time: 1334455441
+Root Time: 1336836638
+Root Time: 1339197890
+Root Time: 1341503829
+Root Time: 1343841563
+Root Time: 1346359025
+Root Time: 1348671101
+Root Time: 1351098603
+Root Time: 1353616187
+Root Time: 1356422019
+Root Time: 1358854194
+Root Time: 1361512915
+Root Time: 1364047052
+Root Time: 1366453737
+Root Time: 1368714354
+Root Time: 1370990942
+Root Time: 1373400797
+Root Time: 1375903326
+Root Time: 1378382378
+Root Time: 1380870618
+Root Time: 1383174191
+Root Time: 1385776604
+Root Time: 1388226189
+Root Time: 1390624945
+Root Time: 1392993076
+Root Time: 1395473212
+Root Time: 1397747908
+Root Time: 1400010564
+Root Time: 1402303818
+Root Time: 1404784442
+Root Time: 1407061901
+Root Time: 1409438908
+Root Time: 1411733633
+Root Time: 1414168482
+Root Time: 1416411649
+Root Time: 1418748229
+Root Time: 1421134339
+Root Time: 1423622373
+Root Time: 1425949583
+Root Time: 1428244902
+Root Time: 1430587759
+Root Time: 1433152749
+Root Time: 1435578765
+Root Time: 1437908222
+Root Time: 1440211128
+Root Time: 1442666215
+Root Time: 1444935649
+Root Time: 1447227818
+Root Time: 1449629899
+Root Time: 1452266053
+Root Time: 1454571059
+Root Time: 1456926999
+Root Time: 1459186246
+Root Time: 1461591261
+Root Time: 1463861353
+Root Time: 1466177780
+Root Time: 1468447792
+Root Time: 1470946997
+Root Time: 1473207223
+Root Time: 1475505409
+Root Time: 1477851473
+Root Time: 1480290244
+Root Time: 1482567280
+Root Time: 1484851333
+Root Time: 1487200285
+Root Time: 1489617829
+Root Time: 1491873236
+Root Time: 1494135479
+Root Time: 1496385095
+Root Time: 1498950525
+Root Time: 1501224984
+Root Time: 1503596439
+Root Time: 1505854036
+Root Time: 1508729012
+Root Time: 1511097393
+Root Time: 1513456212
+Root Time: 1515745255
+Root Time: 1518142011
+Root Time: 1520386774
+Root Time: 1522662343
+Root Time: 1524939622
+Root Time: 1527430772
+Root Time: 1529741582
+Root Time: 1532252772
+Root Time: 1534568861
+Root Time: 1537229746
+Root Time: 1539545267
+Root Time: 1542054829
+Root Time: 1544344776
+Root Time: 1547068390
+Root Time: 1549339918
+Root Time: 1551656683
+Root Time: 1553946508
+Root Time: 1556631121
+Root Time: 1559129015
+Root Time: 1561421036
+Root Time: 1563815653
+Root Time: 1566318711
+Root Time: 1568715390
+Root Time: 1570966991
+Root Time: 1573218782
+Root Time: 1575612282
+Root Time: 1577906503
+Root Time: 1580214670
+Root Time: 1582579841
+Root Time: 1586014056
+Root Time: 1588297018
+Root Time: 1590744610
+Root Time: 1593024772
+Root Time: 1595444329
+Root Time: 1597789172
+Root Time: 1600093832
+Root Time: 1602471790
+Root Time: 1604937550
+Root Time: 1607192103
+Root Time: 1609791897
+Root Time: 1612105239
+Root Time: 1614735145
+Root Time: 1617067853
+Root Time: 1619424771
+Root Time: 1621791591
+Root Time: 1624227155
+Root Time: 1626507025
+Root Time: 1629004534
+Root Time: 1631279946
+Root Time: 1633725584
+Root Time: 1636229284
+Root Time: 1638622691
+Root Time: 1640891649
+Root Time: 1643497537
+Root Time: 1645776746
+Root Time: 1648154913
+Root Time: 1650504292
+Root Time: 1652906717
+Root Time: 1655237251
+Root Time: 1657484270
+Root Time: 1659744614
+Root Time: 1662185889
+Root Time: 1664465577
+Root Time: 1666900555
+Root Time: 1669205729
+Root Time: 1671691443
+Root Time: 1673988845
+Root Time: 1676291960
+Root Time: 1678644746
+Root Time: 1681310773
+Root Time: 1683592433
+Root Time: 1686117762
+Root Time: 1688386833
+Root Time: 1690935633
+Root Time: 1693183981
+Root Time: 1695546961
+Root Time: 1697972947
+Root Time: 1700437634
+Root Time: 1702713400
+Root Time: 1705011649
+Root Time: 1707328114
+Root Time: 1709878786
+Root Time: 1712185901
+Root Time: 1714496347
+Root Time: 1716783013
+Root Time: 1719264131
+Root Time: 1721649379
+Root Time: 1724181188
+Root Time: 1726604402
+Root Time: 1729068077
+Root Time: 1731329996
+Root Time: 1733726797
+Root Time: 1736004273
+Root Time: 1738387920
+Root Time: 1740704772
+Root Time: 1742966015
+Root Time: 1745242718
+Root Time: 1747708981
+Root Time: 1750018762
+Root Time: 1752286175
+Root Time: 1754671897
+Root Time: 1757248281
+Root Time: 1759570895
+Root Time: 1762062331
+Root Time: 1764415758
+Root Time: 1766824770
+Root Time: 1769134826
+Root Time: 1771414512
+Root Time: 1773752915
+Root Time: 1776166535
+Root Time: 1778424455
+Root Time: 1780705260
+Root Time: 1783199114
+Root Time: 1785754656
+Root Time: 1788051975
+Root Time: 1790381668
+Root Time: 1792798426
+Root Time: 1795197575
+Root Time: 1797440653
+Root Time: 1799770724
+Root Time: 1802281475
+Root Time: 1804822850
+Root Time: 1807109986
+Root Time: 1809428513
+Root Time: 1811788712
+Root Time: 1814419887
+Root Time: 1816919951
+Root Time: 1819180709
+Root Time: 1821483597
+Root Time: 1823975792
+Root Time: 1826259135
+Root Time: 1828702331
+Root Time: 1830990467
+Root Time: 1833385740
+Root Time: 1835699468
+Root Time: 1837984454
+Root Time: 1840263812
+Root Time: 1842719114
+Root Time: 1845176557
+Root Time: 1847461508
+Root Time: 1849971128
+Root Time: 1852530150
+Root Time: 1854764750
+Root Time: 1857017785
+Root Time: 1859462172
+Root Time: 1861890243
+Root Time: 1864141353
+Root Time: 1866408108
+Root Time: 1868656904
+Root Time: 1871044872
+Root Time: 1873303981
+Root Time: 1875931446
+Root Time: 1878366677
+Root Time: 1880832054
+Root Time: 1883133478
+Root Time: 1885490141
+Root Time: 1887794345
+Root Time: 1890267299
+Root Time: 1892541697
+Root Time: 1894868489
+Root Time: 1897184139
+Root Time: 1899601140
+Root Time: 1901945742
+Root Time: 1904378740
+Root Time: 1906736430
+Root Time: 1909294614
+Root Time: 1911607800
+Root Time: 1913860868
+Root Time: 1916169693
+Root Time: 1918605074
+Root Time: 1920893979
+Root Time: 1923176576
+Root Time: 1925506975
+Root Time: 1928001550
+Root Time: 1930312103
+Root Time: 1932646351
+Root Time: 1935242275
+Root Time: 1938466209
+Root Time: 1940767315
+Root Time: 1943086957
+Root Time: 1945550949
+Root Time: 1948139774
+Root Time: 1950446640
+Root Time: 1952720778
+Root Time: 1954979608
+Root Time: 1957671731
+Root Time: 1960009850
+Root Time: 1962331055
+Root Time: 1964793080
+Root Time: 1967279185
+Root Time: 1969548064
+Root Time: 1971843972
+Root Time: 1974195015
+Root Time: 1976635044
+Root Time: 1978901081
+Root Time: 1981286207
+Root Time: 1983606798
+Root Time: 1986194940
+Root Time: 1988477006
+Root Time: 1990809012
+Root Time: 1993162234
+Root Time: 1995555140
+Root Time: 1997874666
+Root Time: 2000143170
+Root Time: 2002502692
+Root Time: 2004943806
+Root Time: 2007224614
+Root Time: 2009519975
+Root Time: 2011783171
+Root Time: 2014184773
+Root Time: 2016460714
+Root Time: 2018779451
+Root Time: 2021219756
+Root Time: 2023624767
+Root Time: 2025883443
+Root Time: 2028266058
+Root Time: 2030564432
+Root Time: 2032963332
+Root Time: 2035247145
+Root Time: 2037624613
+Root Time: 2039958042
+Root Time: 2042756819
+Root Time: 2045070144
+Root Time: 2047430784
+Root Time: 2049905751
+Root Time: 2052551255
+Root Time: 2054804094
+Root Time: 2057102345
+Root Time: 2059363507
+Root Time: 2061777376
+Root Time: 2064052116
+Root Time: 2066673071
+Root Time: 2069301697
+Root Time: 2071692592
+Root Time: 2074014300
+Root Time: 2076464073
+Root Time: 2078850970
+Root Time: 2081362894
+Root Time: 2083606997
+Root Time: 2085858440
+Root Time: 2088132460
+Root Time: 2090565062
+Root Time: 2092988725
+Root Time: 2095288861
+Root Time: 2097576030
+Root Time: 2100150617
+Root Time: 2102413979
+Root Time: 2104679641
+Root Time: 2106952752
+Root Time: 2109467286
+Root Time: 2111754350
+Root Time: 2114015301
+Root Time: 2116293982
+Root Time: 2118790436
+Root Time: 2121268516
+Root Time: 2123621854
+Root Time: 2125905737
+Root Time: 2128564082
